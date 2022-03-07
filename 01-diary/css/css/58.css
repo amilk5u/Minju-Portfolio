@@ -1,0 +1,45 @@
+﻿.wraper{
+	width:960px; margin:0 auto;
+	margin-top:100px;
+}
+h1{
+	margin-bottom:30px;
+	font-size:25px;
+}
+.table{
+	display:table;
+}
+.row{
+	display:table-row;
+	width:100%;
+}
+.row div{
+	display:table-cell;
+	width:25%;
+	line-height:60px;
+	padding:10px;
+}
+.row:nth-child(odd){
+	background-color:#E5FF99;
+}
+.row:nth-child(even){
+	background-color:#FFCC99;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url(grid02.css);
+@import url(reset02.css);
+body{
+}
+header{
+	background:black;
+}
+nav{
+	background:white;
+	box-shadow:0px 1px 2px rgba(0,0,0, .09);
+}
+.view{
+	height:580px;
+	overflow:hidden;
+	margin-bottom:30px;
+	position:relative;
+}
+header .hWraper{
+	height:140px;
+	margin:0 auto;
+	background:black;
+}
+
+nav .gnbWraper{
+	/* width:90%; */
+	height:60px;
+	background:white;
+	margin:0 auto;
+}
+
+.view  .viewer{
+	position:absolute;
+	width:1920px;
+	height:580px;
+	left:50%;
+	margin-left:-960px;
+}
+#contents{
+	/* width:90%; */
+	margin:0 auto;
+}
+
+section{
+	margin-bottom:30px;
+}
+section img{
+	height:100%;
+	width:100%;
+	height:300px;
+}
+
+.thumnail{
+}
+section.row{
+
+}

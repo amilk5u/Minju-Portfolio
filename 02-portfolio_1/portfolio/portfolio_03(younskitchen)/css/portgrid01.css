@@ -1,0 +1,132 @@
+﻿
+
+/* 이탈리안음식 */ 
+.content .section01 .box01 .italian{position:absolute; top:500px; transition-duration:.7s; color:white; display:none;}
+.content .section01 .box01 .korean{position:absolute;  top:500px; transition-duration:.7s; color:white; display:none;}
+.content .section01 .box01 .japan{position:absolute; top:500px; transition-duration:.7s; color:white; display:none;}
+
+.italian #imgbox01 .name,
+.italian #imgbox02 .name,
+.korean #imgbox01 .name,
+.korean #imgbox02 .name,
+.japan #imgbox01 .name,
+.japan #imgbox02 .name
+{position:absolute; width:70px; height:20px; background-color:#c3261f;  bottom:55px; left:10px;  text-align:center; z-index:2;}
+.italian #imgbox01 .text01,
+.italian #imgbox02 .text01,
+.korean #imgbox01 .text01,
+.korean #imgbox02 .text01,
+.japan #imgbox01 .text01,
+.japan #imgbox02 .text01
+{position:absolute; width:190px; height:20px;  left:13px; bottom:20px;  z-index:2;}
+.italian #imgbox01 .money,
+.italian #imgbox02 .money,
+.korean #imgbox01 .money,
+.korean #imgbox02 .money,
+.japan #imgbox01 .money,
+.japan #imgbox02 .money
+{position:absolute; width:100px; height:20px;  right:2px; bottom:20px;  z-index:2;}
+.italian #imgbox01 .img,
+.italian #imgbox02 .img,
+.korean #imgbox01 .img,
+.korean #imgbox02 .img,
+.japan #imgbox01 .img,
+.japan #imgbox02 .img
+{position:absolute; width:0; height:370px; background-color:#00000080; }
+.italian #imgbox01 .text03,
+.italian #imgbox02 .text03,
+.korean #imgbox01 .text03,
+.korean #imgbox02 .text03,
+.japan #imgbox01 .text03,
+.japan #imgbox02 .text03
+{width:250px; height:150px; margin-left:20px; margin-top:100px; opacity:0;} 
+.italian #imgbox01 .hovered,
+.italian #imgbox02 .hovered,
+.korean #imgbox01 .hovered,
+.korean #imgbox02 .hovered,
+.japan #imgbox01 .hovered,
+.japan #imgbox02 .hovered
+{width:100%; height:80px; background-color:#c3261f65; margin-top:40px;}  
+
+
+
+
+
+
+/* 사진넣기 */
+.content .section01 .box01 .italian #imgbox01 .food:first-child{background-image:url(../img/food06.jpg); background-size:cover;}
+.content .section01 .box01 .italian #imgbox01 .food:nth-child(2){background-image:url(../img/food59.jpg); background-size:140%; background-position:-60px -200px;}
+.content .section01 .box01 .italian #imgbox01 .food:nth-child(3){background-image:url(../img/food60.jpg); background-size:cover; background-position:0 -70px;}
+.content .section01 .box01 .italian #imgbox02 .food:first-child{background-image:url(../img/food06.jpg); background-size:cover;}
+.content .section01 .box01 .italian #imgbox02 .food:nth-child(2){background-image:url(../img/food59.jpg); background-size:140%; background-position:-50px 0;}
+.content .section01 .box01 .italian #imgbox02 .food:nth-child(3){background-image:url(../img/food59.jpg); background-size:140%; background-position:-50px 0;}
+
+.content .section01 .box01 .korean #imgbox01 .food:nth-child(1){background-image:url(../img/food62.jpg); background-size:140%; background-position:0 -100px;}
+.content .section01 .box01 .korean #imgbox01 .food:nth-child(2){background-image:url(../img/food62.jpg); background-size:140%; background-position:0 -100px;}
+.content .section01 .box01 .korean #imgbox01 .food:nth-child(3){background-image:url(../img/food62.jpg); background-size:140%; background-position:0 -100px;}
+.content .section01 .box01 .korean #imgbox02 .food:nth-child(1){background-image:url(../img/food62.jpg); background-size:140%; background-position:0 -100px;}
+.content .section01 .box01 .korean #imgbox02 .food:nth-child(2){background-image:url(../img/food62.jpg); background-size:140%; background-position:0 -100px;}
+.content .section01 .box01 .korean #imgbox02 .food:nth-child(3){background-image:url(../img/food62.jpg); background-size:140%; background-position:0 -100px;}
+
+.content .section01 .box01 .japan #imgbox01 .food:nth-child(1){background-image:url(../img/food44.jpg); background-size:140%; background-position:-50px 0;}
+.content .section01 .box01 .japan #imgbox01 .food:nth-child(2){background-image:url(../img/food44.jpg); background-size:140%; background-position:-50px 0;}
+.content .section01 .box01 .japan #imgbox01 .food:nth-child(3){background-image:url(../img/food44.jpg); background-size:140%; background-position:-50px 0;}
+.content .section01 .box01 .japan #imgbox02 .food:nth-child(1){background-image:url(../img/food44.jpg); background-size:140%; background-position:-50px 0;}
+.content .section01 .box01 .japan #imgbox02 .food:nth-child(2){background-image:url(../img/food44.jpg); background-size:140%; background-position:-50px 0;}
+.content .section01 .box01 .japan #imgbox02 .food:nth-child(3){background-image:url(../img/food44.jpg); background-size:140%; background-position:-50px 0;}
+
+
+/* 호버 */
+.content .box01 .italian #imgbox01 .food:nth-child(1):hover .img,
+.content .box01 .italian #imgbox01 .food:nth-child(2):hover .img,
+.content .box01 .italian #imgbox01 .food:nth-child(3):hover .img,
+.content .box01 .italian #imgbox02 .food:nth-child(1):hover .img,
+.content .box01 .italian #imgbox02 .food:nth-child(2):hover .img,
+.content .box01 .italian #imgbox02 .food:nth-child(3):hover .img,
+
+.content .box01 .korean #imgbox01 .food:nth-child(1):hover .img,
+.content .box01 .korean #imgbox01 .food:nth-child(2):hover .img,
+.content .box01 .korean #imgbox01 .food:nth-child(3):hover .img,
+.content .box01 .korean #imgbox02 .food:nth-child(1):hover .img,
+.content .box01 .korean #imgbox02 .food:nth-child(2):hover .img,
+.content .box01 .korean #imgbox02 .food:nth-child(3):hover .img,
+
+.content .box01 .japan #imgbox01 .food:nth-child(1):hover .img,
+.content .box01 .japan #imgbox01 .food:nth-child(2):hover .img,
+.content .box01 .japan #imgbox01 .food:nth-child(3):hover .img,
+.content .box01 .japan #imgbox02 .food:nth-child(1):hover .img,
+.content .box01 .japan #imgbox02 .food:nth-child(2):hover .img,
+.content .box01 .japan #imgbox02 .food:nth-child(3):hover .img
+{width:100%;}
+.content .box01 .italian #imgbox01 .food:nth-child(1):hover .text03,
+.content .box01 .italian #imgbox01 .food:nth-child(2):hover .text03,
+.content .box01 .italian #imgbox01 .food:nth-child(3):hover .text03,
+.content .box01 .italian #imgbox02 .food:nth-child(1):hover .text03,
+.content .box01 .italian #imgbox02 .food:nth-child(2):hover .text03,
+.content .box01 .italian #imgbox02 .food:nth-child(3):hover .text03,
+
+.content .box01 .korean #imgbox01 .food:nth-child(1):hover .text03,
+.content .box01 .korean #imgbox01 .food:nth-child(2):hover .text03,
+.content .box01 .korean #imgbox01 .food:nth-child(3):hover .text03,
+.content .box01 .korean #imgbox02 .food:nth-child(1):hover .text03,
+.content .box01 .korean #imgbox02 .food:nth-child(2):hover .text03,
+.content .box01 .korean #imgbox02 .food:nth-child(3):hover .text03,
+
+.content .box01 .japan #imgbox01 .food:nth-child(1):hover .text03,
+.content .box01 .japan #imgbox01 .food:nth-child(2):hover .text03,
+.content .box01 .japan #imgbox01 .food:nth-child(3):hover .text03,
+.content .box01 .japan #imgbox02 .food:nth-child(1):hover .text03,
+.content .box01 .japan #imgbox02 .food:nth-child(2):hover .text03,
+.content .box01 .japan #imgbox02 .food:nth-child(3):hover .text03
+{opacity:1;}
+
+/* 체크했을 때 나타내어라 */
+.section01 .box01 input:nth-of-type(1):checked ~ .italian{display:block;}
+.section01 .box01 input:nth-of-type(2):checked ~ .korean{display:block;}
+.section01 .box01 input:nth-of-type(3):checked ~ .japan{display:block;}
+
+
+
+
+
+

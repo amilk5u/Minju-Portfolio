@@ -1,0 +1,186 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>입력 양식 태그</title>
+</head>
+<body>
+	<h1>입력 양식 태그</h1>
+		<p>입력 양식은 사용자에게 입력받는 공간을 말한다.</p><br />
+		<p>입력 양식 태그는 입력 양식을 만들때 사용하는 태그이다.</p>
+		
+		<h2>간단한 입력양식</h2>
+		<form action="#" method="#">
+			<input type="text" name="search" />
+			<input type="submit" />
+			
+	
+	
+		</form>
+		<h1>form 태그의 속성</h1>
+		<table border="2" bordercolor="#ff0089" width="450">
+			<tr>
+				<th>속성이름</th>
+				<td>설명</td>
+			</tr>			
+			<tr>
+				<th>action</th>
+				<td>입력 데이터의 전달 위치를 지정힌다.</td>
+			</tr>
+			<tr>
+				<th>method</th>
+				<td>입력 데이터의 전달 방식을 지정한다.</td>
+			</tr>
+		</table>
+		
+		<h2>GET 요청</h2>
+		<form method="get">
+			<input type="text" name="search" />
+			<input type="submit" />			
+		</form>
+		
+		<h2>POST 요청</h2>
+			<form method="post">
+			<input type="text" name="search" />
+			<input type="submit" />
+			</form>
+			
+		<h1>input 태그의 속성</h1>	
+		<form method="post">
+			<input type="text" name="name" /><br />
+			<input type="password" name="password" /><br />
+			<input type="file" name="file" /><br />
+			<input type="submit"/> 
+		</form>
+		
+		<h2>input 태그의 속성 값</h2>
+		<table border="2" width="400" bordercolor="#562083">
+			<tr>
+				<th>속성값</th>
+				<td>설명</td>
+			</tr>
+			<tr>
+				<th>button</th>
+				<td>버튼생성</td>
+			</tr>
+			<tr>
+				<th>checkbox</th>
+				<td>체크박스 생성</td>
+			</tr>
+			<tr>
+				<th>file</th>
+				<td>파일 입력 양식 생성</td>
+			</tr>
+			<tr>
+				<th>hidden</th>
+				<td>보이지 않는다</td>
+			</tr>
+			<tr>
+				<th>image</th>
+				<td>이미지 형태를 생성</td>
+			</tr>
+			<tr>
+				<th>password</th>
+				<td>비밀번호 입력 양식을 생성</td>
+			</tr>
+			<tr>
+				<th>radio</th>
+				<td>라디오 버튼 생성</td>
+			</tr>
+			<tr>
+				<th>reset</th>
+				<td>초기화 버튼을 생성</td>
+			</tr>
+			<tr>
+				<th>submit</th>
+				<td>제출 버튼을 생성</td>
+			</tr>
+			<tr>
+				<th>text</th>
+				<td>글자 입력 양식을 생성</td>
+			</tr>		
+		</table>
+		
+		<h2>input 태그의 속성 값 적용하기</h2>
+			<form> 
+				<input type="text" /><br />
+				<input type="button" /><br />
+				<input type="checkbox" /><br />
+				<input type="file" /><br />
+				<input type="hidden" /><br />
+				<input type="image" /><br />
+				<input type="password" /><br />
+				<input type="radio" /><br />
+				<input type="reset" /><br />
+				<input type="submit" /><br />			
+			</form>
+			<br />
+		<h2>input 태그의 속성 값 적용하기(html5 입력 양식 태그)</h2>
+		<form>
+			<input type="color" /><br />
+			<input type="date" /><br />
+			<input type="datetime" /><br />
+			<input type="datetime-local" /><br />
+			<input type="email" /><br />
+			<input type="month" /><br />
+			<input type="number" /><br />
+			<input type="range" /><br />
+			<input type="search" /><br />
+			<input type="tel" /><br />
+			<input type="time" /><br />
+			<input type="url" /><br />
+			<input type="week" /><br />
+		</form>
+		<br />
+		<h2>textarea 태그</h2>
+		<h3>textarea 태그의 속성</h3>
+		<table border="1">
+			<tr>
+				<th width="100px">속성이름</th>
+				<th width="200px">설명</th>
+			</tr>
+			
+			<tr align="center">
+				<td>cols</td>
+				<td>태그의 너비를 지정합니다.</td>
+			</tr>
+			
+			<tr align="center">
+				<td>rows</td>
+				<td>태그의 높이를 지정합니다</td>
+			</tr>
+		</table>
+		<br />
+		
+		<form><textarea name="#" id="#" cols="30" rows="10"></textarea></form>
+		
+		<br />
+		
+		<form>
+			<textarea name="#" id="#" cols="30" rows="5">
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+			</textarea>
+		</form>
+		
+		<form>
+			<textarea name="#" id="#" cols="30" rows="10">
+			hello
+			hello
+			hello
+			hello
+			hello
+			hello
+			hello
+			</textarea>
+		</form>
+
+			
+			
+</body>
+</html>

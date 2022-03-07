@@ -1,0 +1,13 @@
+﻿ul{
+	list-style:none;
+}
+
+li{
+	float:left;
+	margin:20px;
+}
+
+
+ul i.fa{
+	font-size:5em;
+}

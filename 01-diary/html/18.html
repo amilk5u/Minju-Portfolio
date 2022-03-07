@@ -1,0 +1,88 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>비디오 태그</title>
+<!-- 	<link href="http://vjs.zencdn.net/6.2.7/video-js.css" rel="stylesheet">
+	<script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+		<link rel="stylesheet" href="js/video-js.min.css" />
+</head>
+<body>
+		<h1>video tag</h1>
+		<video poster="http:///placehold.it/640x360" width="640px" height="360px" autoplay loop class="video-js" data-setup="{}">
+			<source src="video/Wildlife.mp4" type="video/mp4"/>
+			<source src="video/Wildlife.webm" type="video/webm"/>
+		<!-- 	<source src="video/Wildlife.ogv" type="video/ogv"/> -->			
+		</video>
+		<!-- 동영상 변환기 검색해서 받으면 된다! -->
+		
+		<br />		
+		<br />
+		<ul>
+		<table width="1000">
+			<tr>
+				<td>속성이름</td>
+				<td>설명</td>
+			</tr>
+			<tr>
+				<td>src</td>
+				<td>비디오 파일 경로 지정</td>
+			</tr>
+			<tr>
+				<td>poster</td>
+				<td>비디오 준비 중일 때의 이미지 파일 경로 지정</td>
+			</tr>
+			<tr>
+				<td>preload</td>
+				<td>비디오를 재생하기 전에 모두 불러올지 지정</td>
+			</tr>
+			<tr>
+				<td>autoplay</td>
+				<td>비디오를 자동 재생할지 지정</td>
+			</tr>
+			<tr>
+				<td>loop</td>
+				<td>비디오를 반복할지 지정</td>
+			</tr>
+			<tr>
+				<td>controls</td>
+				<td>비디오 재생 도구를 출력할지 지정</td>
+			</tr>
+			<tr>
+				<td>width</td>
+				<td>비디오의 너비를 지정</td>
+			</tr>
+			<tr>
+				<td>height</td>
+				<td>비디오의 높이를 지정</td>
+			</tr>	
+		</table>
+		</ul>
+		<br />
+		<br />
+		<br />
+		<h1>track tag</h1>
+				<video poster="http:///placehold.it/640x360" width="640px" height="360px" controls class="video-js" data-setup="{}">
+			<source src="video/Wildlife.mp4" type="video/mp4"/>
+			<source src="video/Wildlife.webm" type="video/webm"/>		
+			
+			<track kind="subtitles" src="video/track.srt" srclang="ko" lable="Korean"/>
+			<track kind="subtitles" src="video/track.srt" srclang="en" lable="Enlgish"/>
+			<track kind="subtitles" src="video/track.srt" srclang="jp" lable="Japanese"/>
+			<track kind="subtitles" src="video/track.srt" srclang="ch" lable="Chinese"/>
+		</video>
+		<h2>트랙파일 활용법</h2>
+		<ol>
+			<li>자막번호</li>
+			<li>시작시간 --> 종료시간</li>
+			<li>자막</li>
+			<li>빈  줄</li>
+		</ol>
+			<p>
+				★마지막에 반드시 빈 줄이 위치해야 한다.
+			</p>
+		
+		
+		<script src="http://vjs.zencdn.net/6.2.7/video.js"></script>
+	</body>
+</html>

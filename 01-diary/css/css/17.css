@@ -1,0 +1,6 @@
+﻿p{
+	counter-increment:rint;
+}
+p::before{content:counter(rint)".";}
+p::after{content:"-"attr(ming)" page";}			/* attr(속성) 을입력하면, 뒤에 속성값이 나온다. */
+p::first-letter{font-size:7em;} /*맨앞 글씨 크기조절*/    

@@ -1,0 +1,19 @@
+﻿input[type=checkbox]:checked~#minjoo{
+	height:0
+}
+#minjoo{
+	overflow:hidden;
+	width:650px;
+	height:300px;
+	text-align:justify;
+	-ms-transition-duration:1s; /*익스플로어*/
+	-webkit-transition-duration:1s; /*크롬*/
+	-moz-transition-duration:1s;  /*파이어폭스*/
+	-o-transition-duration:1s; /*오페라*/
+	transition-duration:1s; 
+}
+.box01{display:none;}
+input[id=minjoo01]:checked~div{display:block; color:red;}
+input[id=minjoo02]:checked~div{display:block; color:blue;}
+
+

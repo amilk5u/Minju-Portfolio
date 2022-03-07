@@ -1,0 +1,53 @@
+﻿<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>1-2_parents</title>	
+	<script src=js/vender/jquery-3.2.1.min.js></script>
+	<style>
+	.ancestors * { 
+		display: block;
+		border: 2px solid lightgrey;
+		color: lightgrey;
+		padding: 5px;
+		margin: 15px;
+	}
+	</style>
+	<script>
+		$(document).ready(function(){
+			$("span").parents().css({"color": "red", "border": "2px solid red"});
+		});
+	</script>
+</head>
+<body class="ancestors">body (great-great-grandparent)
+  <div style="width:500px;">div (great-grandparent)
+    <ul>ul (grandparent)  
+      <li>li (direct parent)
+        <span>span</span>
+      </li>
+    </ul>   
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

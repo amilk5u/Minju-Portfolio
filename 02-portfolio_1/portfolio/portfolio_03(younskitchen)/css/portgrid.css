@@ -1,0 +1,77 @@
+/* 공식1 (Column Width + GutterWidth) * Columncount - GutterWidth = 100
+공식2 Column Width =(100 - (ColumnCount -1) * GutterWidth)/ ColumnCount 
+			100%				100% - 11% * 2% / 12            =  6.5%
+*/
+
+@media screen and (max-width:767px){
+
+}
+
+@media screen and (min-width:768px) and (max-width:959px){
+.h-contents .row .span_4 .textbox{
+	width:100%; }
+.row [class*=span_4]{
+  float:left;
+  margin-left:3.125%;
+}
+.row [class*=span_4]:first-child{
+  margin-left:0;
+}
+.span_4{
+      width: 31.25%;
+    float: left;
+    margin-left: 1.5%;
+}
+.food{
+	width:32.1%;
+}
+.row [class*=food]{
+	float:left;
+	margin-left:1.5%;
+} 
+.row [class*=food]:first-child{
+	margin-left:0;
+}
+
+}
+
+@media screen and (min-width:960px){
+.h-contents .h-bottom{width:960px;} 
+#contents {
+  width: 960px;
+  margin: 0 auto;
+}
+.h-contents .row .span_4 .textbox{
+	width:230px; 
+}
+.row {
+  overflow: hidden;
+  /* width: 100%; */
+}
+.row:after{
+	content:'';
+	clear:both;
+	display:block;
+}
+.row [class*=span_4] {
+  float: left;
+  margin-left:30px;
+}
+.row [class*=span_4]:first-child {
+  margin-left: 0;
+}
+.span_4{
+  width: 300px;
+}
+.food{
+	width:308px;
+}
+.row [class*=food]{
+	float:left;
+	margin-left:18px;
+} 
+.row [class*=food]:first-child{
+	margin-left:0;
+}
+
+}

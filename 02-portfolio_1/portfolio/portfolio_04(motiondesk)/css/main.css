@@ -1,0 +1,120 @@
+﻿body{  font-family: 'malgun';}
+header{
+	height:65px;
+	background:red;
+	position:absolute;
+	width:100%;
+}
+/* 헤더 */
+.header{background-color:#EFBFFF;
+	position:fixed;
+	z-index:1;
+	width:100%;
+}
+/* 메뉴메인 네비-------------- */
+.header #main_nav{
+	width:760px;
+	position:absolute; left:50%;
+	transform:translate(-50%);
+	top:30px;
+}
+.header #main_nav  li{
+	float:left;
+	text-align:center;
+	font-size:1.05rem;
+	margin-left:40px;
+	cursor:pointer;
+	color:#626262;
+	width:120px;	
+	padding-bottom:8px;
+}
+.header #main_nav  li:hover { font-family: 'malgunbd';}
+.header #main_nav  a:nth-child(1) li{
+	margin-left:0; 
+	border-bottom:2.5px solid #626262; 	
+	font-family: 'malgunbd';
+}
+
+/* 서브네비 ----------------*/
+.sub_nav{
+	text-align:right;
+	position:fixed;
+	right:65px;
+	top:37.9%;	
+}
+.sub_nav li{font-size:.9rem; margin-toP:15px; opacity:0; transition:all .4s; color:#3C3C3C;}
+/* 푸터 */
+.footer{background-color:rgba(0,0,0,.5);
+	position:fixed;
+	z-index:1;
+	width:100%;
+	height:50px;
+	bottom:0;
+}
+.footer img{margin-left:20px; margin-top:10px; cursor:pointer;}
+.footer img:last-child{position:absolute; right:30px;}
+
+
+
+
+/* 섹션 배경들 ----------------------------------------------------------------------------------------------*/
+#section01 .background,#section02 .background,#section03 .background,#section04 .background,
+#section05 .background{position:absolute; left:50%; transform:translate(-50%); overflow:hidden;}
+
+
+
+#section01 .back{margin-top:-160px; position:absolute; left:50%; transform:translate(-50%);}
+#section01 .logo{
+	position:absolute;
+	left:50%; top:52%;
+	transform:translate(-50%);
+	display:none;
+}
+#section01 .scroll{
+	position:absolute; left:50%; 
+	transform:translate(-50%);
+	top:81%;
+	width:100px;
+	height:100px;
+	cursor:pointer;
+}
+#section01 .scroll img:first-child{margin-left:35px; margin-top:15px;}
+#section01 .scroll img:last-child{margin-left:-55px; margin-top:70px;}
+
+
+/* 텍스트 */
+#section02 .text,#section03 .text, #section04 .text, #section05 .text, #section06 .text{
+	position:absolute; left:50%; transform:translate(-50%);
+	cursor:pointer;
+	display:none;
+}
+#section02 .text{top:40%;}
+#section03 .text{width:350px; top:25%;}
+#section04 .text{width:500px; top:25%;}
+#section05 .text{width:450px; top:25%;}
+#section06 .text{width:650px; top:25%;}
+#section04 .text img:last-child{margin-left:73px;}
+#section05 .text img:last-child{margin-left:60px;}
+#section06 .text img:last-child{margin-left:157px;}
+
+#section04 .fiter{top:63%;}
+#section05 .fiter{top:64%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

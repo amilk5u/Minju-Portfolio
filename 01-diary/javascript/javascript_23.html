@@ -1,0 +1,72 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>중첩 조건문</title>
+	<link rel="stylesheet" href="css/javascript_23.css" />	
+	<script>
+		var date=new Date();
+		var hour=date.getHouse();
+		
+		//if(<불 표현식>){
+		//	if(<불 표현식>){
+		//		<문장>
+		//	}else{
+		//		<문장>
+		//	}
+		//}else{
+		//	if(<불 표현식>){
+		//		<문장>
+		//	}else{
+		//		<문장>
+		//	}
+		//}
+		
+		
+
+		if(hour<11){
+			if(hour>6){
+				alert('아침입니다');
+			}else{
+				alert('새벽입니다');
+			}
+		}else{
+			if(hour<15){
+				alert('오후입니다');
+			}else{
+				if(hour<18){
+					alert('초저녁입니다');
+				}else{
+					alert('저녁입니다');
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

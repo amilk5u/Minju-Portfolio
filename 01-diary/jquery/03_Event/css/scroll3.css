@@ -1,0 +1,55 @@
+header{
+	height:48px;
+	width:100%;
+	background:black;
+	position:fixed;
+	top:0;
+}
+nav{
+	color:white;
+	line-height:48px;	
+}
+ul{
+	width:360px;
+	margin:0 auto;
+}
+li{
+	text-transform:uppercase;
+	float:left;
+	margin-right:20px;
+	cursor:pointer;
+}
+li:hover{
+	color:orange;
+}
+section{
+	height:800px;
+}
+section:nth-child(1){
+	background:#A64CFF;
+	
+}
+section:nth-child(2){
+	background:#4CA6FF;
+}
+section:nth-child(3){
+	background:#FFA64C;
+}
+.button{
+	position:fixed;
+	right:100px;
+	bottom:100px;
+	background:#2693FF;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	color:white;
+	text-align:center;
+	cursor:pointer;
+}
+.button span{
+	display:block;
+	top:50%;
+	margin-top:12px;
+
+}

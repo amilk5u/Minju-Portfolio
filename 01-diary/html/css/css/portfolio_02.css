@@ -1,0 +1,115 @@
+﻿*{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none; color:black;}
+p{font-size:14px;}
+
+header{background-color:black;}
+.header{background-color:white; width:1300px; height:200px; margin:0 auto; position:relative; margin-top:10px;}
+.header .h-top ul{background-color:red; width:330px; height:20px; float:right;}
+.header .h-top ul li{float:left; padding-left:10px;}
+.header .h-bottom{position:absolute; left:50%; margin-left:-100px; margin-top:10px;}
+
+nav{background-color:#333333;}
+.navigation{background-color:#ccc; width:1300px; height:60px; margin:0 auto;}
+.navigation ul{background-color:red; width:800px; height:30px;	margin:0 auto; padding-top:30px;}
+.navigation ul li{float:left; padding-left:47px; font-weight:bold;}
+.navigation ul li:first-child{padding-left:7px;}
+
+.view{background-color:#ccc; margin-top:15px; height:1200px; position:relative;}
+.view .viewer{width:1600px; height:900px; background-image:url(../img/view.jpg); background-size:100%; position:absolute; left:50%; margin-left:-800px;}
+
+
+
+
+.contents{background-color:#777777;}
+.content{width:1300px; margin:0 auto;}
+
+/* FAVORIT FOOD */
+.content section h2{text-align:center; margin-top:20px; margin-bottom:20px;}								/* 섹션 타이틀 제목 */
+.content .row{background-color:white; height:1000px;}
+.content .row .article01{background-color:#ccc; width:420px; height:600px; float:left; margin-left:20px;}
+.content .row .article01 .box01{background-color:red; width:420px; height:450px; background-image:url(../img/brooke-lark-261287.jpg); background-size:cover;}
+.content .row .article01 .box02{background-color:red; width:420px; height:450px; position:relative; background-image:url(../img/micheile-henderson-429783.jpg); background-size:cover;}
+.content .row .article01 .box02 .box03{background-color:white; opacity:.4; width:220px; height:200px; position:absolute; left:10px; bottom:10px;} 
+
+.content .row .article01:first-of-type{background-color:white; margin-left:0px; border:4px solid lightgray; border-size:5px; box-sizing:border-box; height:600px; }
+.content section:first-child .article01{overflow:hidden;}
+
+/* MENU */
+.content section:nth-child(2){background-color:#ff566f; width:1300px; height:1200px; margin:0 auto;}
+.content section:nth-child(2) .article01{background-color:yellow; width:650px; height:750px; float:left;}
+.content section:nth-child(2) .article01 .box01{width:650px; height:500px; background-image:url(../img/jakub-kapusnak-296132.jpg); background-position:-150px; 
+	background-size:1150px 800px; background-repeat:no-repeat; position:relative; overflow:hidden;}
+	
+.content section:nth-child(2) .article01 .box01 h3{font-size:27px; text-align:center; position:absolute; left:50%; transform:translate(-50%); top:50%; color:white;}
+.content section:nth-child(2) .article01 .box01 p{width:130px; line-height:25px; background-color:#ffffff; text-align:center; position:absolute; left:50%; transform:translate(-50%); top:60%;}
+.content section:nth-child(2) .article01 .box01 .icon{width:100px; height:100px; background-image:url(../img/burger.png); background-repeat:no-repeat; background-size:60%; position:absolute; left:50%; transform:translate(-30%); top:35%;}
+
+.content section:nth-child(2) .article01 .box01:hover{transform:scale(2);}
+
+
+
+
+
+
+
+
+.content section:nth-child(2) .article01 .box02{background-color:#ccc; width:650px; height:250px;}
+.content section:nth-child(2) .article01 .box02 .minibox01{background-color:blue; width:325px; height:250px; float:left; background-image:url(../img/carissa-gan-76304.jpg); background-size:cover;}
+.content section:nth-child(2) .article01 .box02 .minibox02{background-color:gold; width:325px; height:250px; float:left; background-image:url(../img/niklas-rhose-14304.jpg); background-size:cover;}
+
+.content section:nth-child(2) .article02{background-color:yellow; width:650px; height:750px; float:left;}
+.content section:nth-child(2) .article02 .box01{background-color:black; width:325px; height:750px; float:left;}
+.content section:nth-child(2) .article02 .box02{background-color:#888888; width:325px; height:600px; float:left;}
+.content section:nth-child(2) .article02 .box01 .minibox01{background-color:red; width:325px; height:187.5px; background-image:url(../img/yoori-koo-51884.jpg); background-size:350px; background-position:-10px;}
+.content section:nth-child(2) .article02 .box01 .minibox02{background-color:green; width:325px; height:562.5px; background-image:url(../img/brenda-godinez-367702.jpg); background-size:cover;}
+.content section:nth-child(2) .article02 .box02 .minibox01{background-color:yellow; width:325px; height:375px; background-image:url(../img/15413003865_2caed5b160_c.jpg); background-position:center; background-size:100%;}
+.content section:nth-child(2) .article02 .box02 .minibox02{background-color:pink; width:325px; height:375px; background-image:url(../img/alison-marras-323018.jpg); background-size:cover;}
+
+/* OUR PROJECT */
+.content section:nth-child(3) .article01{background-color:#ccc; width:1300px; height:1000px;}
+.content section:nth-child(3) .article01 .box01{background-color:gold; width:900px; height:650px; position:relative;}
+.content section:nth-child(3) .article01 .box02{background-color:blue; width:600px; height:400px; position:absolute; right:-400px; top:50%; transform:translateY(-50%);}
+
+/* FOOD TRUCK FOR EVERYONE */
+.content section:nth-child(4) .article01{background-color:#ccc; width:1300px; height:800px;}
+.content section:nth-child(4) .article01 .box01{background-color:pink; width:650px; height:550px; float:left;}
+.content section:nth-child(4) .article01 .box01 .minibox01{background-color:red; width:325px; height:275px; float:left;}
+.content section:nth-child(4) .article01 .box01 .minibox02{background-color:blue; width:325px; height:275px; float:left;}
+.content section:nth-child(4) .article01 .box01 .minibox03{background-color:white; width:325px; height:275px; float:left;}
+.content section:nth-child(4) .article01 .box01 .minibox04{background-color:black; width:325px; height:275px; float:left;}
+.content section:nth-child(4) .article01 .box02{background-color:green; width:650px; height:550px; float:left; position:relative;}
+.content section:nth-child(4) .article01 .box02 .minibox{background-color:pink; width:325px; height:275px; position:absolute; left:0; bottom:0;}
+
+/*footer*/
+footer{background-color:gold;}
+.footer{width:1300px; height: 200px; margin:0 auto; margin-top:100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

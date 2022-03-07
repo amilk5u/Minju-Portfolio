@@ -1,0 +1,34 @@
+﻿label{
+	width:98.4px; line-height:50px; float:left;
+	display:block;
+	text-align:center;
+}
+div[class*=text]{
+	background-color:#ccc;
+	width:500px; line-height:300px;
+	display:none;
+	margin:0 auto;
+	text-align:center;
+	font-size:3em;
+}
+.tab-box{
+	width:500px; height:53.8px;
+	background-color:gold;
+	margin:0 auto;
+	border:4px solid black;
+	box-sizing:border-box;
+	border-bottom:0;
+}
+.text01, .text02, .text03, .text04, .text05{
+	background-image:url(../img/8.jpg); background-size:cover;
+	border:4px solid black;	color:white;
+	box-sizing:border-box;
+}
+
+label:hover{background-color:red; color:pink;}
+input:nth-of-type(1):checked ~ .text01,
+input:nth-of-type(2):checked ~ .text02,
+input:nth-of-type(3):checked ~ .text03,
+input:nth-of-type(4):checked ~ .text04,
+input:nth-of-type(5):checked ~ .text05{display:block;}
+

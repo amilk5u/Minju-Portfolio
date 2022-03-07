@@ -1,0 +1,7 @@
+﻿.imgbox{
+	margin:0 auto;
+	width:960px;
+	height:460px;
+	background-image:url(http://source.unsplash.com/random/960x500/);
+	background-size:100%;
+}

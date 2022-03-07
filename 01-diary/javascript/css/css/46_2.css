@@ -1,0 +1,20 @@
+﻿body{padding:150px;}
+div{
+	width:300px;
+	height:100px;
+	background-color:#00468C;
+	margin:0 auto;
+	position:relative;
+}
+
+.box{
+	width:100px;
+	height:50px;
+	background-color:#FFD24C;
+	position:absolute;
+	text-align:center;
+	line-height:50px;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);			/* translate 는 자기몸에 해당하는 공간을 뜻 */	
+}

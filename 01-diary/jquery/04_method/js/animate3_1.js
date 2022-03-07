@@ -1,0 +1,14 @@
+$(document).ready(function(){
+	$('.button').click(function(){
+		$('.wraper').toggleClass('on');
+		if($('.button').hasClass('on')){
+			$('.wraper').stop(true).animate({
+				left:'0px'
+			},1000,'easeInElastic');
+		}else{
+			$('.wraper').stop(true).animate({
+				left:'-900px'
+			},1000,'easeInElastic');
+		}
+	});
+});

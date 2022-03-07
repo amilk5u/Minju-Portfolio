@@ -1,0 +1,11 @@
+﻿h1:first-of-type{
+	color:red;
+}
+
+h2:nth-of-type(2){
+	color:green
+}
+
+div:nth-of-type(2n+1){
+	color:blue;
+}

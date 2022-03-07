@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/NanumBarunGothic.eot);
+  src: url(../fonts/NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/NanumBarunGothic.woff2) format('woff2'),
+       url(../fonts/NanumBarunGothic.woff) format('woff'),
+       url(../fonts/NanumBarunGothic.ttf) format('truetype');
+} 
+ @font-face {
+  font-family: 'yet';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/yet.eot);
+  src: url(../fonts/yet.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/yet.woff2) format('woff2'),
+       url(../fonts/yet.woff) format('woff'),
+       url(../fonts/yet.ttf) format('truetype');
+} 
+ @font-face {
+  font-family: 'malgunbd';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/malgunbd.eot);
+  src: url(../fonts/malgunbd.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/malgunbd.woff2) format('woff2'),
+       url(../fonts/malgunbd.woff) format('woff'),
+       url(../fonts/malgunbd.ttf) format('truetype');
+} 

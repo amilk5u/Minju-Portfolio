@@ -1,0 +1,29 @@
+﻿.select{
+	color:ff0000;
+	/*color:#f00;*/
+	/*color:red;*/
+	/*color:rgb(255,0,0);*/
+}
+
+#ex{
+	color:blue;
+}
+.item{
+	color:red;
+}
+.header{
+	/* 	background:gold;	 */
+	color:gold;	
+}
+
+h2.select{
+	color:red;
+}
+li.item{
+	color:gold;
+}
+
+.blue{background:blue; color:white;}
+.red{background:red;}
+.green{background:green;}
+.yellow{background:yellow;}

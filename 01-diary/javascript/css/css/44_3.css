@@ -1,0 +1,36 @@
+﻿*{margin:0; padding:0; margin:8px;}
+body{width:700px; margin:0 auto;}
+#box{
+	width:300px;
+	height:300px;
+	background:linear-gradient(45deg, #BFCFFF 0%, #004030 100%);
+	border-radius:400px;
+	text-align:center;
+	line-height:300px;
+	font-size:5em;
+	color:white;
+	position:absolute;
+	margin:0 auto;
+	
+	animation-name:cycle;
+	animation-duration:3s;
+	animation-iteration-count:infinite;    /* <<는 무한대 또는 숫자를 입력하면 그횟수만큼 움직인다. */
+	animation-timing-function:ease;   /* sase-in /sase-out  */
+	animaition-direction:altenate;
+}
+
+@keyframes cycle{
+	from{
+		left:2000px;
+		tranform:rotate(deg);
+	}
+	
+	50%{
+		left:5px;
+	}
+	
+	to{
+		left:2000px;
+		tranform:rotate(360sdeg);
+	}
+}

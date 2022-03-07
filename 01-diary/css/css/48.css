@@ -1,0 +1,90 @@
+﻿*{margin:0;padding:0;font-amily: 'dotum' , san-serif;}
+html{overflow-y:scroll;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:0;}
+.warper{
+	width:200px;
+	height:200px;
+	margin:100px auto;
+}
+.warper section h1{text-align:center; line-height:200px; font-size:5em;}
+.warper section{
+	width:200px;
+	height:200px;
+	position:relative;
+	animation-name:cycle;						/* 애니메이션 이름을 설정 */
+	animation-duration:5s;					/* 애니메이션 지속시간 */
+	animation-timing-function:linear;			 	
+	animation-delay:1s;							/* 1초 뒤에 액션을 시작해라 */
+	animation-iteration-count:infinite;		/* 무한반복해라 */
+	/*animation-play-state:paused;				 애니매이션을 멈춰라 */
+	
+	transform-style:preserve-3d;  		        /* 3d를 재생 시켜라는 명령어 */
+}
+/* .warper section:hover{
+	animation-play-state:running;			 애니메이션을 움직여라 
+} */
+@keyframes cycle{
+	from{
+		transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	}
+	to{
+		transform:rotateX(360deg) rotateY(360deg) rotateZ(365deg);
+	}
+}
+.warper div{
+	width:200px;
+	height:200px;
+	border-radius:50px;
+	position:absolute;
+	background-color:#AAAAAA;
+	opacity:.9;
+}
+/* 측면 */
+.warper div:nth-child(1){background-color:#FFB973;
+	transform:rotateY(0deg) translate3d(0px, 0px, 200px);
+}
+.warper div:nth-child(2){background-color:#73DCFF;
+	transform:rotateY(90deg) translate3d(0px, 0px, 100px);
+}
+.warper div:nth-child(3){background-color:#9999FF;
+	transform:rotateY(180deg) translate3d(0px, 0px, 100px);
+}
+.warper div:nth-child(4){background-color:#FFBF00;
+	transform:rotateY(270deg) translate3d(0px, 0px, 100px);
+}
+/* 위아래 */
+
+.warper div:nth-child(5){background-color:#FF99CC;
+	transform:rotateX(90deg) translate3d(0px, 0px, 100px);
+}
+.warper div:nth-child(6){background-color:#BDBDAE;
+	transform:rotateX(270deg) translate3d(0px, 0px, 300px) scale(2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

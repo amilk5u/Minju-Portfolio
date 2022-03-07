@@ -1,0 +1,51 @@
+﻿<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>2-1_children</title>
+	<script src=js/vender/jquery-3.2.1.min.js></script>
+	<style>
+	.descendants * { 
+		display: block;
+		border: 2px solid lightgrey;
+		color: lightgrey;
+		padding: 5px;
+		margin: 15px;
+	}
+	</style>
+	<script>
+		$(document).ready(function(){
+			$('div').children().css({'color': 'pink', 'border': "10px solid pink"});	<!-- 바로아래에 있는 선택자만 선택할 수 있다. -->
+		});
+	</script>
+</head>
+<body>
+
+	<div class="descendants" style="width:500px;">div (current element) 
+	  <p>p (child)
+		<span>span (grandchild)</span>     
+	  </p>
+	  <p>p (child)
+		<span>span (grandchild)</span>
+	  </p> 
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

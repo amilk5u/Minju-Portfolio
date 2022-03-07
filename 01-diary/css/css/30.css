@@ -1,0 +1,29 @@
+﻿0oinput{display:none;}
+.tabs{
+	width:430px; height:50px; margin:0 auto;
+}
+label{
+	width:80px; line-height:80px; float:left; 
+	margin:0 auto; margin-left:5px;	
+	background-color:#FFBFCF; text-align:center; color:white;
+	display:block;
+	border-radius:80px;
+	transition-duration:.5s;
+}
+label:hover{background-color:#FF9673;}
+div[class*=cat]{
+	width:500px; line-height:300px;
+	background-color:#BFFFDF;
+	border-radius:500px;
+	margin:0 auto; margin-top:60px;
+	text-align:center; font-size:3em; color:white;
+	display:none;
+}
+.cat01, .cat02, .cat03, .cat04, .cat05{
+	background-image:url(../img/7.jpg); background-size:cover; background-position:center;
+}
+input:nth-of-type(1):checked ~ .cat01{display:block;}
+input:nth-of-type(2):checked ~ .cat02{display:block;}
+input:nth-of-type(3):checked ~ .cat03{display:block;}
+input:nth-of-type(4):checked ~ .cat04{display:block;}
+input:nth-of-type(5):checked ~ .cat05{display:block;}

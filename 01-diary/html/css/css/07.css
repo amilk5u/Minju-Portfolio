@@ -1,0 +1,12 @@
+﻿input[type=password]{
+	background:red;
+	
+}
+input[type=text]{
+	background:pink;
+}
+
+span{
+	float:left;
+	width:80px;
+}

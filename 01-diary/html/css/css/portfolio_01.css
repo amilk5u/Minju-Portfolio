@@ -1,0 +1,90 @@
+﻿*{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none; color:black;}
+
+
+header{background-color:black;}
+.header{background-color:white; width:1300px; height:250px; margin:0 auto; position:relative; margin-top:20px;}
+.header .h-top ul{background-color:red; width:330px; height:30px; float:right;}
+.header .h-top ul li{float:left; padding-left:10px;}
+.header .h-bottom{position:absolute; left:50%; margin-left:-100px; margin-top:50px;}
+
+nav{background-color:#333333;}
+.navigation{background-color:#ccc; width:1024px; height:60px; margin:0 auto;}
+.navigation ul{background-color:red; width:650px; height:30px;	margin:0 auto; padding-top:30px;}
+.navigation ul li{float:left; padding-left:26px;}
+.navigation ul li:first-child{padding-left:7px;}
+
+.view{background-color:#ccc; position:relative; margin-top:15px; height:1000px;}
+.view .viewer{position:absolute; left:50%; margin-left:-800px;}
+
+.contents{background-color:#777777;}
+.content{width:1024px; margin:0 auto;}
+.content section h2{text-align:center;}
+.content .row{background-color:blue; height:800px;}
+.content .row .article01{background-color:red; width:330px; height:500px; float:left; margin-left:17px;}
+.content .row .article01:first-of-type{margin-left:0px;}
+.content .row .article01 img{width:100%; height:300px;}
+.content section:first-child .article01{overflow:hidden;}
+
+.content section:nth-child(2){background-color:#ff566f; width:1024px; height:1000px; margin:0 auto;}
+.content section:nth-child(2) h2{text-align:center;}
+.content section:nth-child(2) .article01{background-color:yellow; width:512px; height:600px; float:left;}
+.content section:nth-child(2) .article01 .box01{background-color:pink; height:400px;}
+
+.content section:nth-child(2) .article01 .box02{background-color:#ccc; width:512px; height:200px;}
+.content section:nth-child(2) .article01 .box02 .minibox01{background-color:blue; width:256px; height:200px;}
+
+.content section:nth-child(2) .article02{background-color:yellow; width:512px; height:600px; float:left;}
+.content section:nth-child(2) .article02 .box01{background-color:black; width:256px; height:600px; float:left;}
+.content section:nth-child(2) .article02 .box02{background-color:#888888; width:256px; height:600px; float:left;}
+.content section:nth-child(2) .article02 .box01 .minibox01{background-color:red; width:256px; height:150px;}
+.content section:nth-child(2) .article02 .box01 .minibox02{background-color:green; width:256px; height:450px;}
+.content section:nth-child(2) .article02 .box02 .minibox01{background-color:yellow; width:256px; height:300px;}
+.content section:nth-child(2) .article02 .box02 .minibox02{background-color:black; width:256px; height:300px;}
+
+.content section:nth-child(3) .article01{background-color:#ccc; width:1024px; height:800px;}
+.content section:nth-child(3) .article01 .box01{background-color:pink; width:700px; height:500px; position:relative;}
+.content section:nth-child(3) .article01 .box02{background-color:blue; width:500px; height:300px; position:absolute; right:-325px; top:50%; transform:translateY(-50%);}
+
+.content section:nth-child(4) .article01{background-color:#ccc; width:1024px; height:800px;}
+.content section:nth-child(4) .article01 .box01{background-color:pink; width:512px; height:400px; float:left;}
+.content section:nth-child(4) .article01 .box01 .minibox01{background-color:red; width:256px; height:200px; float:left;}
+.content section:nth-child(4) .article01 .box01 .minibox02{background-color:blue; width:256px; height:200px; float:left;}
+.content section:nth-child(4) .article01 .box01 .minibox03{background-color:white; width:256px; height:200px; float:left;}
+.content section:nth-child(4) .article01 .box01 .minibox04{background-color:black; width:256px; height:200px; float:left;}
+
+.content section:nth-child(4) .article01 .box02{background-color:green; width:512px; height:400px; float:left; position:relative;}
+.content section:nth-child(4) .article01 .box02 .minibox{background-color:pink; width:256px; height:200px; position:absolute; left:0; bottom:0;}
+
+footer{background-color:gold;}
+.footer{width:1024px; height: 200px; margin:0 auto; margin-top:100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

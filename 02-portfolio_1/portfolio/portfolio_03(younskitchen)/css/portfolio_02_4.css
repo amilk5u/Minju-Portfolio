@@ -1,0 +1,222 @@
+﻿@import url(portgrid.css);
+@import url(portgrid01.css);
+@import url(portgrid02.css);
+
+
+a{text-decoration:none; color:#ccc; font-size:0.8em;}
+h2{font-size:22px;}
+p{font-size:13px;}
+input{display:none;}
+/* 뷰 */
+header{width:100%; height:1450px; position:relative;}
+.view{
+	width:1600px; height:900px; 
+	position:absolute; left:50%; transform:translate(-50%); 
+	background-image:url(../img/main.jpg); background-size:cover; background-position:0 -100px;
+}
+/* 헤더 컨텐츠 */
+.h-contents{
+	width:960px; height:1200px; 
+	position:absolute; left:50%; transform:translate(-50%); top:50px;
+}
+/* 탑 */
+.h-contents .h-top{width:960px; height:80px;}
+/* 로고 */
+.h-contents .h-top .rogo{
+	width:230px; height:50px; float:left; 
+	background-image:url(../img/go.png); background-size:cover; background-repeat:no-repeat; 
+	background-height:100%;
+	margin-top:10px;
+}
+/* 네비 */
+.h-contents .h-top .navigation{
+	width:600px; height:60px; float:right;
+}
+/* 네비속성 */
+.h-contents .h-top .navigation div[class*=nav]{
+	width:100px; line-height:40px; float:left;
+	background-color:#444444; 
+	text-align:center;
+	margin-top:20px;
+}
+.nav01{border-radius:10px 0 0 10px;}
+.nav06{border-radius:0 10px 10px 0;}
+
+/* 네이게이션호버 */
+.h-contents .h-top .navigation a:nth-child(1) .nav01:hover,
+.h-contents .h-top .navigation a:nth-child(2) .nav02:hover,
+.h-contents .h-top .navigation a:nth-child(3) .nav03:hover,
+.h-contents .h-top .navigation a:nth-child(4) .nav04:hover,
+.h-contents .h-top .navigation a:nth-child(5) .nav05:hover,
+.h-contents .h-top .navigation a:nth-child(6) .nav06:hover{background-color:#c3261f; color:#DDDDDD;}
+
+
+.nav01 ul,
+.nav02 ul,
+.nav03 ul,
+.nav04 ul,
+.nav05 ul,
+.nav06 ul{display:none;}
+.nav01 ul li,
+.nav02 ul li,
+.nav03 ul li,
+.nav04 ul li,
+.nav05 ul li,
+.nav06 ul li{background-color:#666666;}
+.nav01 ul li:hover,
+.nav02 ul li:hover,
+.nav03 ul li:hover,
+.nav04 ul li:hover,
+.nav05 ul li:hover,
+.nav06 ul li:hover
+{background-color:#444444;}
+
+
+
+
+
+
+/* 중간로고 */
+.h-contents .h-midium{width:350px; height:120px; margin:0 auto; margin-top:250px;}
+
+/* 헤더컨텐츠01 */
+.h-contents .h-bottom{height:800px; margin-top:80px;}
+.h-contents .h-bottom .spans{height:800px;}
+.h-contents .h-bottom .span_4{height:670px; box-shadow:4px 4px 50px rgba(0,0,0, .5); background-color:white; overflow:hidden;}
+.h-contents .h-bottom .span_4:nth-child(2){margin-top:20px;}
+.h-contents .h-bottom .span_4:nth-child(1),
+.h-contents .h-bottom .span_4:nth-child(3){margin-top:-10px;}
+
+.h-contents .row .span_4 .img{width:100%; height:450px;}
+.h-contents .row .span_4:nth-of-type(1) .img{background-image:url(../img/food12.jpg); background-size:cover;}
+.h-contents .row .span_4:nth-of-type(2) .img{background-image:url(../img/food39.jpg); background-size:cover;}
+.h-contents .row .span_4:nth-of-type(3) .img{background-image:url(../img/food53.jpg); background-size:cover;
+}
+/* 헤더컨텐츠 의 텍스트 */
+.h-contents .row .span_4 .textbox{
+	height:170px; 
+	margin:0 auto; margin-top:30px; text-align:center; position:relative;
+}
+/* 레드보더 */
+.red1{
+	width:35px; height:7px; 
+	background-color:#c3261f; border-radius:60px; 
+	position:absolute; left:50%; transform:translate(-50%); 
+	margin-top:20px;
+}
+.icon01{
+	width:30px; height:30px;
+	background-image:url(../img/icon06.png); background-size:100%; 
+	position:absolute; left:50%; transform:translate(-50%); margin-top:60px;
+}
+.h-bottom .span_4:nth-child(1) .icon01:hover,
+.h-bottom .span_4:nth-child(2) .icon01:hover,
+.h-bottom .span_4:nth-child(3) .icon01:hover
+{
+		width:30px; height:30px;
+	background-image:url(../img/icon08.png); background-size:100%; 
+	position:absolute; left:50%; transform:translate(-50%); margin-top:60px;
+}
+/* --------------------------------------------------------------------- */
+
+
+/* /* 중간삼각형 */
+.contents .midiumimage{position:absolute; width:1500px; height:30px; top:300px; left:50%; transform:translate(-50%);
+}
+/* bg컬러 */
+header .bg{width:1600px; height:1350px; background-color:#EEEEEE50; margin:0 auto;}
+
+
+/* -------------------------------------------------------------------------- */
+
+/* 컨텐츠01 */
+.contents{width:100%; height:1900px;position:relative;} /* 부모 */
+.content{width:960px;  position:absolute; left:50%; transform:translate(-50%);} /* 자식 */
+.content .section01{width:100%;}
+.content .section01 .box01{height:1300px; position:relative; overflow:hidden;}
+.content .section01 .box01 .text{
+	width:800px; height:350px;  
+	overflow:hidden; 
+	position:absolute; left:50%; transform:translate(-50%);
+	text-align:center;
+}
+.content .section01 .box01 .text h2{font-size:25px; margin-top:5px;}
+.content .section01 .box01 .text p:nth-of-type(2){margin-top:60px;}
+
+/* 라벨 */
+.content .section01 .box01 .label{position:absolute; left:50%; transform:translate(-50%); top:400px;  box-shadow:1px 1px 30px #ccc;}
+.content .section01 .box01 label{width:100px; line-height:30px; display:block; float:left; top:50px; text-align:center; cursor:pointer;}
+.content .section01 .box01 label:nth-child(1):hover,
+.content .section01 .box01 label:nth-child(2):hover,
+.content .section01 .box01 label:nth-child(3):hover{outline:2px solid black; }
+.content .section01 .box01 .text p{color:#888888;}
+/* 이미지박스틀 */
+.content .section01 .box01 .img-box{
+	width:100%;height:388px;}
+.content .section01 .box01 .img-box .food{
+	height:370px; background-color:pink; position:relative; box-shadow:2px 6px 15px #555555;}
+
+
+/* grid */
+
+
+/* 중간백그라운드이미지 */
+.contents .backimage{
+	position:absolute; width:2300px;height:400px; left:50%; transform:translate(-50%); top:1400px; background-color:pink;
+	background-image:url(../img/food64.jpg); background-position:center; background-size:100%; 
+}
+.backimage .text{width:600px; height:100px; margin-top:150px; text-align:center; color:white;} 
+.backimage .text p{margin-top:10px; margin-bottom:20px;}
+.backimage .box{width:100px; line-height:30px; background-color:#c3261f;  margin-top:10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------*/
+/* footer */
+footer{height:600px;position:relative;  margin-top:300px;}
+.f-bg{width:1600px; height:500px; position:absolute; left:50%; transform:translate(-50%); background-color:#eeeeee50; top:-200px; text-align:center; padding-top:30px; color:#888888;}
+.footer{width:1600px; height:600px; position:absolute; left:50%; transform:translate(-50%); background-image:url(../img/food67.jpg); background-size:100%; background-position:center;}
+.footer .f-top{width:960px; height:500px;  background-color:pink; left:50%; transform:translate(-50%); position:absolute; top:-120px;}
+.footer .f-bottom{width:960px; height:200px; position:absolute; left:50%; transform:translate(-50%); top:390px;}
+.footer .f-bottom .f-icon01{width:1000px; height:80px;  margin-left:40px; margin-top:40px;}
+.f-icon01 img{float:left;}
+.f-icon01 img:nth-of-typ(1):{float:left; margin-top:20px;}
+.f-icon01 p{width:170px; height:60px;  float:left; padding-left:10px; margin-top:10px; color:white;}
+.f-icon01 p:nth-of-type(2){width:140px;}
+.f-icon01 p:nth-of-type(3){width:280px;}
+.f-icon02{width:600px; height:80px; color:#DDDDDD;}
+.f-icon02 .img{width:190px; height:20px; margin-top:20px;}
+.f-icon02 img{float:left; margin-left:10px;}
+	
+	
+	
+.top{
+	width:30px; line-height:30px; text-align:center;
+	background-color:black; opacity:.6; color:white;
+	position:fixed; z-index:5; right:40px; bottom:40px;
+	border:3px solid black;
+	border-radius:60px;
+}
+	
+	
+	
+	

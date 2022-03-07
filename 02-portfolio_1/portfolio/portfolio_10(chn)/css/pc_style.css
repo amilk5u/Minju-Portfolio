@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+
+/* 공통 header */
+header{width: 100%; height: 300px; background-color:rgba(145, 0, 0);}
+
+/* main */
+main{background-color: #ccc; width: 100%; height: 100px;}
+
+/* 공통 footer */
+footer{background-color: #cccccc; width: 100%; margin: 0 auto;}
+footer .f_top{background-color: #7a920d; width: 100%; height: 70px; box-sizing: border-box; border-bottom: 1px solid #000;}
+footer .f_main{background-color: #0a881b; width: 1200px; height: 230px; margin: 0 auto;}
+
+
+
+
+

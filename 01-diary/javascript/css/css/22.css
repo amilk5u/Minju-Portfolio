@@ -1,0 +1,22 @@
+﻿*{font-size:12px;}
+section{margin-bottom:30px;}
+/*----------------퍼센트 단위----------------*/
+section.part01 p:nth-child(1){}
+section.part01 p:nth-child(2){font-size:100%}
+section.part01 p:nth-child(3){font-size:200%}
+section.part01 p:nth-child(4){font-size:300%}
+/*-----------------배수 단위-------------------*/
+section.part02 p:nth-child(1){}
+section.part02 p:nth-child(2){font-size:1.0em;}
+section.part02 p:nth-child(3){font-size:1.5em;}
+section.part02 p:nth-child(4){font-size:2.0em; color:red;}
+/*-----------------픽셀 단위-------------------*/
+section.part03 p:nth-child(1){color:gold;}/*p태그의 기본사이즈는 16px이다*/
+section.part03 p:nth-child(2){font-size:16px; color:gold;}
+section.part03 p:nth-child(3){font-size:24px; color:red;}
+section.part03 p:nth-child(4){font-size:32px;}
+div{
+	text-align:justify;
+	width:960px;
+	margin:0 auto;
+}

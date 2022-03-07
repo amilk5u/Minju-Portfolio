@@ -1,0 +1,16 @@
+﻿body{
+	background-color:gray;
+	background-image:url(../img/BackgroundFront.png), url(../img/BackgroundBack.png);
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	/* background-position:10px 50%; */
+ background-position:0 50%; 
+	/* 백그라운드컬러보다백그라운드이미지가 더 우선시한다(상위에있따) */
+}
+	
+/* body{
+	background:url(../img/BackgroundFront.png) bottom / 100% no-repeat fixed, url(../img/BackgroundBack.png) bottom / 100% no-repeat fixed gray;
+}
+
+ */

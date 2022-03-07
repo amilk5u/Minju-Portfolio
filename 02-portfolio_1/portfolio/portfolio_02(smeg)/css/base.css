@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+
+@font-face {
+  font-family: 'AltheaRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/AltheaRegular.eot);
+  src: url(../fonts/AltheaRegular.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/AltheaRegular.woff2) format('woff2'),
+       url(../fonts/AltheaRegular.woff) format('woff'),
+       url(../fonts/AltheaRegular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'AltheaSemiBold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/AltheaSemiBold.eot);
+  src: url(../fonts/AltheaSemiBold.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/AltheaSemiBold.woff2) format('woff2'),
+       url(../fonts/AltheaSemiBold.woff) format('woff'),
+       url(../fonts/AltheaSemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'AltheaBold';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/AltheaBold.eot);
+  src: url(../fonts/AltheaBold.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/AltheaBold.woff2) format('woff2'),
+       url(../fonts/AltheaBold.woff) format('woff'),
+       url(../fonts/AltheaBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'malgunbd';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/malgunbd.eot);
+  src: url(../fonts/malgunbd.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/malgunbd.woff2) format('woff2'),
+       url(../fonts/malgunbd.woff) format('woff'),
+       url(../fonts/malgunbd.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'malgun';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/malgun.eot);
+  src: url(../fonts/malgun.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/malgun.woff2) format('woff2'),
+       url(../fonts/malgun.woff) format('woff'),
+       url(../fonts/malgun.ttf) format('truetype');
+}
+
+
+/*
+ * Nanum Gothic Coding (Korean) http://www.google.com/fonts/earlyaccess
+ */
+/* @font-face {
+  font-family: 'Nanum Gothic Coding';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic Coding';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Bold.ttf) format('truetype');
+} */

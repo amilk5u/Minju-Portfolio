@@ -1,0 +1,143 @@
+﻿*{
+	padding:0;
+	margin:0 auto;
+}
+
+
+body{
+	font-size:8px;
+}
+.a{font-size:32px; color:red;}
+.b{font-size:2em;}
+.c{font-size:large;}
+.d{font-size:small;}
+.font_arial{
+	font-family:Arial;   /* font-family는 폰트의 종류 '' 안에 폰트종류쓰기 */
+}
+.font_roman{
+	font-family:'Times New Roman';
+}
+.font_arial01{
+	font-family:'없는 폰트', sans-serif;
+}
+.font_roman02{
+	font-family:'dotum', serif;
+}
+.font_big{
+	font-size:2em;
+}
+.font_italic{
+	font-style:italic;
+}
+.font_weight{
+	font-weight:bold;	
+	font-indent:3px;
+	font-spacing:10px;
+}
+
+.font_weight02{
+	font-weight:bold;	
+	font-align:right;
+}
+.box01{
+	width:200px;
+	height:100px;
+	background-color:pink;
+	text-align:center;
+}
+.box02{
+	width:200px;
+	line-height:100px;
+	background-color:pink;
+	text-align:center;
+}
+.bigbox{
+	width:300px;
+	height:200px;
+	margin:0 auto;
+}
+.minibox{
+	display:block;
+	width:100px;
+	line-height:50px;
+	background-color:orange;
+	text-align:center;
+	cursor:pointer;
+	border:5px solid #FF4000;
+	border-radius:20px;
+	font-family:arial;
+	font-size:2em;
+	font-style:italic;
+	font-weight:bold;
+	-webkit-box-shadow:2px 2px 6px black;
+	box-shadow:2px 2px 6px black;
+	/*  박스안에 쉐도우 box-shadow:2px 2px 뒤로는 뿌옇게 */
+	/* 폰트 두껍게 font-weight:bold light  */
+}
+.minibox:hover{
+	background-color:red;
+}
+
+.inline{
+	text-align:center;
+	background-color:gold;
+}
+.block{
+	text-align:center;
+	background-color:gold;
+}  /*  span은 인라인이라 높이값이 안먹힘 p는 블록이라 높이값이 먹힘 */
+
+ 
+
+.contentBox{
+	width:300px;
+	margin:0 auto;
+	background:gray;
+	padding:30px;
+
+}
+
+.contentBox p:first-child{
+	text-align:center;
+}
+.contentBox p:last-child{
+	line-height:20px;
+	text-align:justify;
+	letter-spacing: .5px;
+}
+
+
+
+h1{
+	margin-bottom:10px;
+	margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

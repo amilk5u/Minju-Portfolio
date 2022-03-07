@@ -1,0 +1,30 @@
+﻿*{padding:0; margin:0;}
+
+#wraper{
+	width:960px;
+	height:500px;
+	background:#B973FF;
+	margin:0 auto;
+	overflow:hidden;
+}
+/*폭(width)과 높이(height)를 결정하며 글자를 감싸는 영역을 설정한다*/
+div{
+	width:100px;
+	height:100px73DCFF	background:#fff;
+}
+/*margin 오브젝트 이외의 여분을 지정하는 속성*/
+
+div.sample{
+	margin:40px;
+}
+div.sample{
+	border-width:5px;
+	border-style:solid;
+	border-color:#7396FF;
+}
+/* 내용에서부터 ~~ 보더까지의 공간*/
+div.sample{
+	padding:20px;
+	font-size:2em;
+
+}

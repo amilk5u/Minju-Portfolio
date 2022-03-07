@@ -1,0 +1,30 @@
+﻿.wraper{
+	width:600px; 
+	margin:0 auto; 
+	text-align:center;
+}
+.wraper:after{
+	content:'';
+	clear:both;
+	display:block;	
+}
+.box01{
+	width:300px; 
+	background-color:#FF9673;
+	float:left; 
+	outline:10px solid black;
+	transition-duration:.4s;
+}
+.box01:hover{
+	outline:5px solid red;
+}
+.box02{
+	width:300px;
+	background-color:#7373FF;
+	float:left; 
+	outline:5px solid black;
+	transition-duration:.4s;
+}
+.box02:hover{
+	outline:10px solid red;
+}

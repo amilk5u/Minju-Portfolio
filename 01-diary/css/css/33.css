@@ -1,0 +1,16 @@
+﻿body>div{
+	width:400px;
+	height:100px;
+	border:3px solid black;
+	position:relative;   /* relative상대값(부모)*/
+	overflow:scroll;   /* overflow:scroll 자식이 넘친만큼만 스크롤만든다*/ 
+}
+
+.box{
+	width:100px; height:100px;
+	position:absolute;
+}
+
+.red{background-color:red; left:50px; top:50px;}
+.green{background-color:green; left: 100px; top:100px;}
+.blue{background-color:blue; left:150px; top:150px;}

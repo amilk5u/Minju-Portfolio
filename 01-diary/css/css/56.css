@@ -1,0 +1,14 @@
+.viewer{
+	margin:0 auto;
+}
+.view{
+	position:relative;
+	height:600px;
+	background-color:red;
+}
+
+img{
+	position:absolute;
+	left:50%;
+	margin-left:-100px;	 /* 자식에게 absolute 주고 left 50% 주고 margin-left 로 이미지절반값을 빼주면 중간으로 된다 */
+}

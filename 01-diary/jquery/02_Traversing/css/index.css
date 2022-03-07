@@ -1,0 +1,18 @@
+.wraper{width:960px; margin:0 auto;}
+h1{font-size:30px; text-transform:uppercase;}
+h2{
+	font-size:24px;
+	text-transform:uppercase;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+p{margin-bottom:30px;}
+.table{display:table;	width:100%;}
+.table .row{display:table-row;}
+.row:nth-child(even){background-color:#FFEFBF;}
+.row:nth-child(odd){background-color:#DFBFFF;}
+.table .row div{display:table-cell; line-height:48px;
+}
+.table .row div:nth-child(1){width:20%; padding-left:10px;}
+.table .row div:nth-child(2){width:70%;}
+.row div:last-child{font-size:13px;}

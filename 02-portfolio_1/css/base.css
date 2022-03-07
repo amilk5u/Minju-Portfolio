@@ -1,0 +1,73 @@
+﻿@charset "utf-8";
+
+/* 처음쓴폰트 */
+ @font-face {
+  font-family: 'Geometos';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Geometos.eot);
+  src: url(../fonts/Geometos.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/Geometos.woff2) format('woff2'),
+       url(../fonts/Geometos.woff) format('woff'),
+       url(../fonts/Geometos.ttf) format('truetype');
+} 
+/* 맑은고딕 */
+ @font-face {
+  font-family: 'malgun';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/malgun.eot);
+  src: url(../fonts/malgun.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/malgun.woff2) format('woff2'),
+       url(../fonts/malgun.woff) format('woff'),
+       url(../fonts/malgun.ttf) format('truetype');
+} 
+/* ? */
+ @font-face {
+  font-family: 'Gaesung';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Gaesung.eot);
+  src: url(../fonts/Gaesung.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/Gaesung.woff2) format('woff2'),
+       url(../fonts/Gaesung.woff) format('woff'),
+       url(../fonts/Gaesung.ttf) format('truetype');
+}
+/* 메인폰트 */
+ @font-face {
+  font-family: 'Conero';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Conero.eot);
+  src: url(../fonts/Conero.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/Conero.woff2) format('woff2'),
+       url(../fonts/Conero.woff) format('woff'),
+       url(../fonts/Conero.ttf) format('truetype');
+}
+/* 나눔고딕 */
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/NanumBarunGothic.eot);
+  src: url(../fonts/NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/NanumBarunGothic.woff2) format('woff2'),
+       url(../fonts/NanumBarunGothic.woff) format('woff'),
+       url(../fonts/NanumBarunGothic.ttf) format('truetype');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

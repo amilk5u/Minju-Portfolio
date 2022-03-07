@@ -1,0 +1,55 @@
+﻿*{list-style:none;}
+
+.cycleBox{
+	width:240px;
+	overflow:hidden;
+	margin:0 auto;
+	margin-top:80px;
+	
+}
+.cycleBox li{
+	float:left;
+	width:10px;
+	height:10px;
+	border:2px solid black;
+	margin-left:30px;
+	border-radius:10px;
+	transition:all .3s;
+}
+
+.cycleBox li:hover{
+	background-color:black;
+}
+
+.cube_box{
+	width:100px;
+	margin:0 auto;
+	margin-top:100px;
+	overflow:hidden;
+}
+.cube_box li{
+	float:left;
+	width:80px;
+	height:90px;
+	background:red;
+	margin-left:30px;
+	transition:all .3s;
+}
+
+.cube_box li:hover{
+	background-color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

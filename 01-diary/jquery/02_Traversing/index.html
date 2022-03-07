@@ -1,0 +1,128 @@
+﻿<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>traversing</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/index.css" />		
+</head>
+<body>
+	<div class="wraper">
+	<h1>traversing 순회하기</h1>
+	<p>DOM 트리의 노드 전체를 방문하는 것</p>
+		<div class="table">
+		
+			<h2>조상 선조-상위</h2>
+			<div class="row">
+				<div>parent()</div>
+				<div>부모가 선택된다 $("span").parent().css 아무것도 쓰지않아도 선택됨(바로 위에 부모)</div>
+			</div>
+			<div class="row">
+				<div>parents()</div>
+				<div>선택된것의 부모와 조상들이 모두선택된다  $('span').parent('div') 부모나조상인 div가선택된다</div>
+			</div>
+			<div class="row">
+				<div>parentsUntil()</div>
+				<div>span과 li 의 사이의 모든 태그들이 선택된다 $("span").parentsUntil("li")</div>
+			</div>
+		
+			<h2>자식 후손-하위</h2>			
+			<div class="row">
+				<div>children()</div>
+				<div>하위에 있는 태그들을 선택할수 있다.</div>
+			</div>
+			<div class="row">
+				<div>find()</div>
+				<div>div안에 후손들이나 자손들을 선택할수 있다/동의는 안된다</div>
+			</div>
+			<h2>형제 자매들-사이드</h2>
+			<div class="row">
+				<div>siblings()시블링스 </div>
+				<div>선택한것 빼고 모두 선택하라 /호버했을때 선택되지않은 나머지들의 불을꺼라not과비슷 동의 선상의것은 선택이 안된다?</div>
+			</div>
+			<div class="row">
+				<div>next()</div>
+				<div>선택된것의 바로뒤에있는 선택자를 선택한다</div>
+			</div>
+			<div class="row">
+				<div>nextALL()</div>
+				<div>선택된것의뒤에 있는 모든것 동의선상</div>
+			</div>
+			<div class="row">
+				<div>nextUntill()</div>
+				<div>선택자 와 선택자 사이 모든 태그를 전부 선택한다 $("h2").nextUntill("h6") </div>		
+			</div>
+			<div class="row">
+				<div>prev()</div>
+				<div>선택된 것의 바로 뒤에 오는 태그를 선택한다</div>
+			</div>
+			<div class="row">
+				<div>prevALL()</div>
+				<div>선택된것 뒤에 모두 다 선택한다 동의선상!!</div>
+			</div>
+			<div class="row">
+				<div>prevUntil()</div>
+				<div>선택된것들사이앞에 동의 선상에 있는 모든태그들을 선택한다</div>
+			</div>
+			
+			<h2>필터</h2>
+			<div class="row">
+				<div>first()</div>
+				<div>선택된것의 첫번째 태그를 선택한다</div>
+			</div>
+			<div class="row">
+				<div>last()</div>
+				<div>선택된 것의 마지막 태그를 선택한다</div>
+			</div>
+			<div class="row">
+				<div>eq()</div>
+				<div>선택된 태그의 eq값이 3이면 4번째의 태그가 선택된다</div>
+			</div>
+			<div class="row">
+				<div>filter()</div>
+				<div>많은 태그중에서 속성되어있는 태그를 선택한다</div>
+			</div>
+			<div class="row">
+				<div>not()</div>
+				<div>선택한 태그중에서 속해있는 속성태그를 뺀 나머지를 선택한다</div>
+			</div>
+			<div class="row">
+				<div>has()</div>
+				<div></div>
+			</div>	
+			
+			<h2>각각 모두에게</h2>
+			<div class="row">
+				<div>each()</div>
+				<div></div>
+			</div>		
+			<div class="row">
+				<div></div>
+				<div></div>
+			</div>		
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

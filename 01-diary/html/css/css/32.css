@@ -1,0 +1,29 @@
+﻿table{border:1px solid #007FFF;}
+table thead th{padding:5px;}
+table tbody tr th{
+	margin-left:50px;
+	padding:15px;
+}
+table tbody td{
+	text-align:center;
+}
+
+hr{
+	margin:20px 0 20px;
+}
+
+.wraper{
+	position:relative;   /*상대값*/
+	width:700px;
+	height:500px;
+	background:gold;
+	margin:0 auto;
+}
+.box{
+	width:100px;
+	height:100px;
+	position:absolute;  /*절대값*/
+}
+.red{background-color:red; z-index:5; left:0px;}
+.green{background-color:green; z-index:2; left:0px;}
+.blue{background-color:blue; z-index:1; left:0px;}

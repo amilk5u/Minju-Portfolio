@@ -1,0 +1,19 @@
+﻿/* input[type="password"]{
+background:red;
+} */
+
+input:not([type="password"]){
+	background:gold;
+}
+
+li:not([id="password"]){
+	background:red; 		/*속성과 속성값을 입력 후 속성값빼고 나머지에게 적용된다*/
+	width:100px;			/*반대로 적용된다*/
+	color:#4CFFFF;
+}
+
+li:not([id="text"]){
+	background:blue;
+	width:100px;
+	color:white;
+}

@@ -1,0 +1,68 @@
+﻿		#B{
+			margin:100px;
+		}
+		#C{
+			margin:0px auto;
+			width:600px;
+		}
+		.A{
+			margin:0px auto;
+			width:600px;			
+			padding:2px;
+		}
+		.a{
+			width:600px;				
+			border:5px dotted lightgray;				
+			height:25px;
+		}			
+		.b{
+			width:600px;				
+			border:5px dashed lightgray;				
+			height:25px;
+		}			
+		.c{
+			width:600px;				
+			border:5px solid lightgray;				
+			height:25px;
+		}			
+		.d{
+			width:600px;				
+			border:5px double lightgray;				
+			height:25px;
+		}			
+		.e{
+			width:600px;				
+			border:5px groove lightgray;				
+			height:25px;
+		}			
+		.f{
+			width:600px;				
+			border:5px ridge lightgray;				
+			height:25px;
+		}			
+		.g{
+			width:600px;				
+			border:5px inset lightgray;				
+			height:25px;
+		}			
+		.h{
+			width:600px;				
+			border:5px outset lightgray;				
+			height:25px;
+		}			
+		.i{
+			width:600px;				
+			border:5px none lightgray;				
+			height:25px;
+		}			
+		.j{
+			width:600px;				
+			border:5px hidden lightgray;				
+			height:2px;
+		}
+		.D{
+			width:300px;
+			height:300px;
+			border:6px dotted #00D936;
+			margin:0 auto;
+		}

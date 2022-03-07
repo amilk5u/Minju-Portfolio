@@ -1,0 +1,11 @@
+﻿*{padding:0; margin:0;}
+body{
+	/* background-color: */
+	background-image:url(../img/BackgroundFront.png), url(../img/BackgroundBack.png);
+	  background-size:50%;  /*  ,를 붙이면 따로따로 안붙이면 가로 세로 */
+	/* background-size:cover;  */
+	background-repeat:no-repeat;  /*여러장이아닌 사진하나로 나오게*/
+	background-attachment:fixed; 
+	background-position:0 0;   /*사진을 상하좌우로 옮길수 잇음*/
+}
+

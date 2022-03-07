@@ -1,0 +1,20 @@
+﻿*{margin:0; padding:0;}
+a{text-decoration:none; color:black;}
+li{list-style:none;}
+
+.header{width:100%; height:150px; background-color:red; position:relative;}	
+.nav{
+	width:960px;
+	background-color:green;
+	position:absolute;
+	left:50%;
+	transform:translate(-50%);
+}
+.logo{position:absolute; left:0;}
+
+.nav_01 a, .nav_02 a, .nav_03 a, .nav_04 ,a .nav_05 a{
+	background-color:black;
+	width:120px;
+	float:left;
+	color:white;
+}

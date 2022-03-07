@@ -1,0 +1,22 @@
+.wraper{
+	width:500px;
+	margin:0 auto;
+	line-height:50px;
+	font-weight:bold;
+}
+#basket{
+	background-color:brown;
+	padding:10px;
+}
+#apple{
+	background:red;
+	margin:10px;
+}
+#banana{
+	background-color:yellow;
+	margin:10px;
+}
+#orange{
+	background-color:orange;
+	margin:10px;
+}

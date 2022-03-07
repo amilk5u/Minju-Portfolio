@@ -1,0 +1,332 @@
+﻿
+
+
+/* MENU */
+.content #section04{width:1300px; height:1200px; margin:0 auto;}
+.content #section04 .article01{width:650px; height:750px; float:left;}
+/* box01 *//* 햄버거 */
+.content #section04 .article01 .box01{
+	width:650px; height:500px; 
+	position:relative;
+	overflow:hidden;
+}
+.content #section04 .article01 .box01 .imgbox{
+	width:650px; height:500px; 
+	background-image:url(../img/jakub-kapusnak-296132.jpg); background-position:-150px; background-size:1150px 800px; background-repeat:no-repeat; 
+	transition-duration:.5s;
+}	
+.content #section04 .article01 .box01 .colorbox{
+	width:650px; height:500px; 
+	position:absolute; z-index:1; left:0; top:0; 
+	transition-duration:.5s;
+}
+.content #section04 .article01 .box01 h3{
+	font-size:27px; text-align:center; color:white; opacity:0; 
+	position:absolute; left:50%; top:50%; z-index:2;
+	transform:translate(-50%); 
+	transition-duration:.5s;
+} 
+.content #section04 .article01 .box01 p{
+	width:130px; line-height:25px; background-color:#ffffff; text-align:center; position:absolute; left:50%; 
+	transform:translate(-50%); top:340px; transition-duration:.5s; opacity:0; z-index:2;} 
+	
+.content #section04 .article01 .box01 .icon{
+	width:60px; height:60px; 
+	background-image:url(../img/burger.png); background-repeat:no-repeat; opacity:0; background-size:100%; 
+	position:absolute; left:50%; transform:translateX(-50%); top:160px;  z-index:2;
+	transition-duration:.5s;	transition-timing-function:ease;
+}
+/*햄버거 호버 */
+.content #section04 .article01 .box01:hover .imgbox{transform:scale(1.2);}
+.content #section04 .article01 .box01:hover .imgbox ~.icon{top:180px; opacity:1;}
+.content #section04 .article01 .box01:hover h3{opacity:1;}
+.content #section04 .article01 .box01:hover p{opacity:1; top:310px;}
+.content #section04 .article01 .box01:hover .imgbox+.colorbox{background-color:black; opacity:.7;}
+
+/* box02 */
+.content #section04 .article01 .box02{background-color:#ccc; width:650px; height:250px;}
+/* 피자 */
+.content #section04 .article01 .box02 .minibox01{
+	width:325px; height:250px; float:left; 
+	position:relative; 
+	overflow:hidden;
+}
+.content #section04 .article01 .box02 .minibox01 .imgbox{
+	width:325px; height:250px; 
+	background-image:url(../img/carissa-gan-76304.jpg); background-size:cover; transition-duration:.5s;
+}	
+.content #section04 .article01 .box02 .minibox01 .colorbox{
+	width:325px; height:250px; 
+	position:absolute; z-index:1; left:0; top:0; 
+	transition-duration:.5s;
+}	
+.content #section04 .article01 .box02 .minibox01 h3{
+	font-size:23px; text-align:center; color:white; opacity:0; 
+	position:absolute; left:50%; top:50%; z-index:2; 
+	transform:translate(-50%); 
+	transition-duration:.5s;
+}
+.content #section04 .article01 .box02 .minibox01 p{
+	width:100px; line-height:25px; text-align:center; opacity:0;
+	background-color:#ffffff;  
+	position:absolute; left:50%; top:190px; z-index:2; 
+	transform:translate(-50%);  
+	transition-duration:.5s;
+}
+.content #section04 .article01 .box02 .minibox01 .icon{
+	width:50px; height:50px; 
+	background-image:url(../img/m-icon_pizza.png); 	background-size:100%; background-repeat:no-repeat;
+	position:absolute; left:50%;  top:50px;  z-index:2; 
+	transition-duration:.5s; opacity:0;
+	transform:translate(-50%);
+}
+/* 피자호버 */
+.content #section04 .article01 .box02 .minibox01:hover .imgbox{transform:scale(1.2);}
+.content #section04 .article01 .box02 .minibox01:hover .imgbox ~.icon{top:70px; opacity:1;}
+.content #section04 .article01 .box02 .minibox01:hover h3{opacity:1;}
+.content #section04 .article01 .box02 .minibox01:hover p{top:170px; opacity:1;}
+.content #section04 .article01 .box02 .minibox01:hover .imgbox+.colorbox{background-color:black; opacity:.7;}
+
+/* 치킨 */
+.content #section04 .article01 .box02 .minibox02{
+	width:325px; height:250px; float:left; 
+	position:relative; 
+	overflow:hidden;
+} 
+.content #section04 .article01 .box02 .minibox02 .imgbox{
+	width:325px; height:250px; 
+	background-image:url(../img/DSC_5350-e1469249059620.jpg); background-size:cover; background-position:-36px;
+	transition-duration:.5s; 
+	transform:scale(1.2);
+}	
+.content #section04 .article01 .box02 .minibox02 .colorbox{
+	width:325px; height:250px; 
+	position:absolute; z-index:1; left:0; top:0; z-index:2;
+	transition-duration:.5s;
+}	
+.content #section04 .article01 .box02 .minibox02 h3{
+	font-size:21px; text-align:center; color:white; opacity:0; 
+	position:absolute; left:50%;  top:50%;  z-index:2; 
+	transition-duration:.5s;
+	transform:translate(-50%);
+}
+.content #section04 .article01 .box02 .minibox02 p{
+	width:100px; line-height:25px; text-align:center;
+	background-color:#ffffff; 
+	position:absolute; left:50%; top:190px; z-index:2;
+	transform:translate(-50%);
+	transition-duration:.5s; 
+	opacity:0;
+}
+.content #section04 .article01 .box02 .minibox02 .icon{
+	width:100px; height:100px; 
+	background-image:url(../img/chicken.png); background-size:50%; 
+	position:absolute; left:50%; top:50px; z-index:2;
+	background-repeat:no-repeat;
+	transform:translate(-25%);   
+	opacity:0;
+	transition-duration:.5s;
+}	
+/* 치킨호버 */
+.content #section04 .article01 .box02 .minibox02:hover .imgbox{transform:scale(1.5);}
+.content #section04 .article01 .box02 .minibox02:hover .imgbox ~.icon{top:70px; opacity:1;}
+.content #section04 .article01 .box02 .minibox02:hover h3{opacity:1;}
+.content #section04 .article01 .box02 .minibox02:hover p{top:170px; opacity:1;}
+.content #section04 .article01 .box02 .minibox02:hover .imgbox+.colorbox{background-color:black; opacity:.7;}
+
+/* article02 */
+.content #section04 .article02{
+	background-color:yellow; 
+	width:650px; height:750px; 
+	float:left;
+}
+/* box01 */
+.content #section04 .article02 .box01{
+	background-color:black; 
+	width:325px; height:750px; float:left;
+}
+/* 빵 */
+.content #section04 .article02 .box01 .minibox01{
+	width:325px; height:250px;
+	background-color:red;
+	position:relative; 
+	overflow:hidden;	
+}
+.content #section04 .article02 .box01 .minibox01 .imgbox{
+	width:325px; height:250px; position:absolute;
+	background-image:url(../img/yoori-koo-51884.jpg); background-size:cover;
+	transition-duration:.5s;	
+}
+.content #section04 .article02 .box01 .minibox01 .colorbox{
+	width:325px; height:250px; 
+	position:absolute; z-index:1; left:0; top:0; z-index:2;
+	transition-duration:.5s;
+}	
+.content #section04 .article02 .box01 .minibox01 h3{
+	font-size:21px; text-align:center; color:white; opacity:0;
+	position:absolute; left:50%; transform:translate(-50%); top:50%; z-index:2;
+	transition-duration:.5s;
+}
+.content #section04 .article02 .box01 .minibox01 p{
+	text-align:center;
+	width:100px; line-height:25px; 
+	background-color:#ffffff; 
+	position:absolute; left:50%; 
+	transform:translate(-50%); top:190px; z-index:2; transition-duration:.5s; opacity:0;}
+.content #section04 .article02 .box01 .minibox01 .icon{
+	width:100px; height:100px; 	
+	opacity:0; 
+	background-image:url(../img/m-icon_ricerisotto.png); background-size:50%; background-repeat:no-repeat;
+	position:absolute; left:50%; top:50px; z-index:2;
+	transform:translate(-25%);    
+	transition-duration:.5s;
+}	
+/* 빵호버 */
+.content #section04 .article02 .box01 .minibox01:hover .imgbox{transform:scale(1.5);}
+.content #section04 .article02 .box01 .minibox01:hover .imgbox ~.icon{top:70px; opacity:1;}
+.content #section04 .article02 .box01 .minibox01:hover h3{opacity:1;}
+.content #section04 .article02 .box01 .minibox01:hover p{top:170px; opacity:1;}
+.content #section04 .article02 .box01 .minibox01:hover .imgbox+.colorbox{background-color:black; opacity:.7;}
+
+/* 파르페 */
+.content #section04 .article02 .box01 .minibox02{
+	width:325px; height:500px; float:lleft;
+	background-color:green;
+	position:relative;
+	overflow:hidden;
+}
+.content #section04 .article02 .box01 .minibox02 .imgbox{
+	width:325px; height:500px; 
+	position:absolute;
+	background-image:url(../img/brenda-godinez-367702.jpg); background-size:cover;
+	transition-duration:.5s;	
+}
+.content #section04 .article02 .box01 .minibox02 .colorbox{
+	width:325px; height:500px; 
+	position:absolute; z-index:1; left:0; top:0; z-index:2;
+	transition-duration:.5s;
+}	
+.content #section04 .article02 .box01 .minibox02 h3{
+	font-size:21px; text-align:center; color:white; opacity:0;
+	position:absolute; left:50%; transform:translate(-50%); top:50%; z-index:2;
+	transition-duration:.5s;
+}
+.content #section04 .article02 .box01 .minibox02 p{
+	text-align:center;
+	width:100px; line-height:25px; 
+	background-color:#ffffff; 
+	position:absolute; left:50%; top:70%; z-index:2; 
+	transform:translate(-50%);  
+	transition-duration:.5s;
+	opacity:0;
+}
+.content #section04 .article02 .box01 .minibox02 .icon{
+	width:100px; height:100px; 	
+	opacity:0; 
+	background-image:url(../img/m-icon_dessert.png); background-size:50%; background-repeat:no-repeat;
+	position:absolute; left:50%; top:32%; z-index:2;
+	transform:translate(-25%);    
+	transition-duration:.5s;
+}	
+/* 파르페호버 */
+.content #section04 .article02 .box01 .minibox02:hover .imgbox{transform:scale(1.5);}
+.content #section04 .article02 .box01 .minibox02:hover .imgbox ~.icon{top:38%; opacity:1;}
+.content #section04 .article02 .box01 .minibox02:hover h3{opacity:1;}
+.content #section04 .article02 .box01 .minibox02:hover p{top:60%; opacity:1;}
+.content #section04 .article02 .box01 .minibox02:hover .imgbox+.colorbox{background-color:black; opacity:.7;}
+
+/* box02 */
+.content #section04 .article02 .box02{background-color:#888888; width:325px; height:600px; float:left;}
+/* 파스타 */
+.content #section04 .article02 .box02 .minibox01{ 
+	width:325px; height:375px; float:left;
+	background-color:yellow;
+	overflow:hidden;
+	position:relative;
+}
+.content #section04 .article02 .box02 .minibox01 .imgbox{
+	width:325px; height:375px; 
+	background-image:url(../img/eaters-collective-132773.jpg); background-position:center; background-size:174%;
+	position:absolute;
+	transition-duration:.5s;
+}
+.content #section04 .article02 .box02 .minibox01 .colorbox{
+	width:325px; height:375px;
+	position:absolute; z-index:2;
+}	
+.content #section04 .article02 .box02 .minibox01 h3{
+	font-size:21px; text-align:center; color:white; opacity:0;
+	position:absolute; left:50%; transform:translate(-50%); top:50%; z-index:2;
+	transition-duration:.5s;
+}
+.content #section04 .article02 .box02 .minibox01 p{
+	text-align:center;	opacity:0;
+	width:100px; line-height:25px; 
+	background-color:#ffffff; 
+	position:absolute; left:50%; top:70%; z-index:2; 
+	transform:translate(-50%);  
+	transition-duration:.5s;
+	
+}
+.content #section04 .article02 .box02 .minibox01 .icon{
+	width:100px; height:100px; 	opacity:0;
+	background-image:url(../img/ravioli.png); background-size:50%; background-repeat:no-repeat;
+	position:absolute; left:50%; top:25%; z-index:2;
+	transform:translate(-25%);    
+	transition-duration:.5s;
+}	
+/* 파스타호버 */
+.content #section04 .article02 .box02 .minibox01:hover .imgbox{transform:scale(1.5);}
+.content #section04 .article02 .box02 .minibox01:hover .imgbox ~.icon{top:33%; opacity:1;}
+.content #section04 .article02 .box02 .minibox01:hover h3{opacity:1;}
+.content #section04 .article02 .box02 .minibox01:hover p{top:63%; opacity:1;}
+.content #section04 .article02 .box02 .minibox01:hover .imgbox+.colorbox{background-color:black; opacity:.7;}
+/* 누들 */
+.content #section04 .article02 .box02 .minibox02{
+	width:325px; height:375px; 
+	background-color:pink;
+	overflow:hidden;
+	position:relative;
+}
+.content #section04 .article02 .box02 .minibox02 .imgbox{
+	width:325px; height:375px; 
+	background-image:url(../img/alison-marras-323018.jpg); background-size:cover;
+	position:absolute;
+	transition-duration:.5s;
+}
+.content #section04 .article02 .box02 .minibox02 .colorbox{
+	width:325px; height:375px;
+	position:absolute; z-index:2;
+	transition-duration:.5s;
+}	
+.content #section04 .article02 .box02 .minibox02 h3{
+	font-size:21px; text-align:center; color:white; opacity:0;
+	position:absolute; left:50%; transform:translate(-50%); top:50%; z-index:2;
+	transition-duration:.5s;
+}
+.content #section04 .article02 .box02 .minibox02 p{
+	text-align:center;	opacity:0;
+	width:100px; line-height:25px; 
+	background-color:#ffffff; 
+	position:absolute; left:50%; top:70%; z-index:2; 
+	transform:translate(-50%);  
+	transition-duration:.5s;
+	
+}
+.content #section04 .article02 .box02 .minibox02 .icon{
+	width:100px; height:100px; 	opacity:0;
+	background-image:url(../img/m-icon_pasta.png); background-size:50%; background-repeat:no-repeat;
+	position:absolute; left:50%; top:25%; z-index:2;
+	transform:translate(-25%);    
+	transition-duration:.5s;
+}
+/* 누들호버 */
+.content #section04 .article02 .box02 .minibox02:hover .imgbox{transform:scale(1.5);}
+.content #section04 .article02 .box02 .minibox02:hover .imgbox ~.icon{top:33%; opacity:1;}
+.content #section04 .article02 .box02 .minibox02:hover h3{opacity:1;}
+.content #section04 .article02 .box02 .minibox02:hover p{top:63%; opacity:1;}
+.content #section04 .article02 .box02 .minibox02:hover .imgbox+.colorbox{background-color:black; opacity:.7;}
+
+
+
+

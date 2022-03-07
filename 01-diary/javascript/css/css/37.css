@@ -1,0 +1,99 @@
+﻿/* @font-face{
+	font-family:'NGothic'; src:url(NanumGothic.woff) format('woff')
+	font-family:'NGothicB'; src:url(NanumGothicBold.woff) format('woff')
+} */
+/* 
+@font-face{
+	font-family:'NGothic'
+	src:local('NanumGothic')
+	url('NAnumGothic.eot')
+	url('NAnumGothic.ttf')
+	url('NAnumGothic.woff')
+} */
+@font-face{
+	font-family:'NanumGothic';
+	src:url('NanumGothicLight.woff') format('woff');
+	font-weight:normal;
+	font-style:normal;
+	
+}
+
+@font-face{
+	font-family:'NanumGothic';
+	src:url('NanumGothicLight.woff') format('woff');
+	font-weight:normal;
+	font-style:normal;	
+}
+*{padding:0; margin:0;}
+body{	
+	padding:50px;
+	font:12px "arial", san-serif;
+}
+h2:nth-of-type(1){
+	font-size:100px;
+	color:#ff8000;
+	text-shadow:5px 5px #FFC926;
+}
+h2:nth-of-type(2){
+	font-size:100px;
+	color:#330066;
+	text-shadow:2px 2px #EFFFBF, 
+	2px 2px #8C8C00,
+	6px 6px #D90036,
+	8px 8px #660066,
+	10px 10px #99FFFF;
+}
+p:nth-of-type(1){
+	text-shadow:1px 1px 1px gray;
+	font-size:20px;
+}
+p:nth-of-type(2){
+	width:12em;
+	padding:10px;
+	background-color:gold;
+	word-wrap:break-word;  /*띄어 쓰기 하지 않은 긴문장을 자를때 사용한다. */
+}
+h1.webfont{
+	font:2em "NGothic" sen-serif;
+}
+
+
+
+
+
+
+
+
+.googlefont01{font-family: 'Josefin Slab', sefif;}
+.googlefont02{font-family: 'ABeeZee', sans-serif;}
+.googlefont03{font-family: 'Permanent Marker', cursive;}
+.googlefont04{font-family: 'Indie Flower', cursive;}
+.googlefont05{font-family: 'Gloria Hallelujah', cursive;}
+.googlefont06{font-family: 'Bungee', cursive;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,419 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>선택자</title>
+	<link rel="stylesheet" href="css/jquery_05.css" />		
+	<script src=js/vender/jquery-3.2.1.min.js></script>
+	<script src=js/jquery_05.js></script>  
+</head>
+<body>
+	<div class="wraper">
+		<h2>선택자</h2>
+		<h3>기본</h3>
+		<div class="row">
+			<div>Slector</div>
+			<div>example</div>
+			<div>설명</div>
+		</div>
+		<div class="row">
+			<div>*</div>
+			<div>$("*")</div>
+			<div>전체를 선택한다 html의 모든것들 ㅋㅋㅋㅋ</div>
+		</div>
+		<div class="row">
+			<div>#id</div>
+			<div>$('#lastname')</div>
+			<div>아이디를 선택할때는 앞에 #을 붙인다</div>
+		</div>
+		<div class="row">
+			<div>.class</div>
+			<div>$('.intro')</div>
+			<div>클래스를 선택할때는 앞에 .을 붙여준다</div>
+		</div>
+		<div class="row">
+			<div>.class, .class</div>
+			<div>$('.intro, .demo')</div>
+			<div>(,)는 또는 이라는 뜻 intro, demo, element 등은 (,)사용이 가능하기 때문에 한꺼번에 선택가능하다</div>		
+		</div>
+		<div class="row">
+			<div>.element(태그요소)</div>
+			<div>$('p')</div>
+			<div>태그는 ''입력안에 입력한다 ('p') ('div') ('.class')</div>
+		</div>
+		<div class="row">
+			<div>el1,el2,el3</div>
+			<div>$('h1,div,p')</div>
+			<div>태그를 동시에 선택하고 싶을때는 ,를 붙이고 뒤에 줄줄히 입력한다</div>	
+		</div>	
+		<h3>기본필터</h3>
+		<div class="row">
+			<div>:animated</div>
+			<div>$('div.aimated')</div>
+			<div>애니메이션 효과가 실행 중인 요소</div>
+		</div>		
+		<div class="row">
+			<div>:first</div>
+			<div>$('p:first')</div>
+			<div>box:first 모든 선상의 것들중 box 최초 첫번째를 선택한다 </div>
+		</div>
+		<div class="row">
+			<div>:last</div>
+			<div>$('p:last')</div>
+			<div>모든 선상의 최종마지막의 p를 선택한다</div>
+		</div>		
+		<div class="row">
+			<div>:even</div>
+			<div>$('tr:even')</div>
+			<div>인덱스가 짝수인 요소</div>
+		</div>		
+		<div class="row">
+			<div>:odd</div>
+			<div>$('tr:odd')</div>
+			<div>인덱스가 홀수인 요소</div>
+		</div>		
+		<div class="row">
+			<div>:eq(index)</div> 
+			<div>$('ul li:eq(3)')</div>
+			<div>인덱스(배열)값은 0 부터 그러므로 리스트는 4번째이다</div>
+		</div>		
+		<div class="row">
+			<div>:gt(index)</div>
+			<div>$('ul li:gt(3)')</div>
+			<div>선택한 요소보다 인덱스가 큰 요소</div>
+		</div>		
+		<div class="row">
+			<div>:not(selector)</div>
+			<div>$('input:not(.intro)')</div>
+			<div>지정한 선택자와 일치하지 않는 요소(인풋에서 인트로로 클래스가 없는 요소를 선택)</div>
+		</div>		
+		<div class="row">
+			<div>:header</div>
+			<div>$(':header')</div>
+			<div>h1,h2,h3,h4,h5,h6 제목태그를 모두선택</div>
+		</div>
+		<div class="row">
+			<div>:lt(index)</div>
+			<div>$('u li:lt(3)')</div>
+			<div>선택한 요소보다 인덱스가 작은 요소</div>
+		</div>		
+		<div class="row">
+			<div>:root</div>
+			<div>$('root')</div>
+			<div>웹 페이지 최상위(루트) 요소(html 요소)</div>
+		</div>
+		<div class="row">
+			<div>:lang(language)</div>
+			<div>$('p:lang(ko)')</div>
+			<div>lang 속성값이 ko인 요소 ex) &lt; p lang="lt"&gt;</div>
+		</div>
+		<h3>내용필터</h3>
+		<div class="row">
+			<div>:has(selector)</div>
+			<div>$('div:has(p)')</div>
+			<div>div 자식요소안에 p태그를 가지는 요소</div>
+		</div>
+		<div class="row">
+			<div>:contains(text)</div>
+			<div>$('p:contains("hello")')</div>
+			<div>p태그중에서 hello 라는 글자를 포함하는 요소</div>
+		</div>
+		<div class="row">
+			<div>:empty</div>
+			<div>$(':empty')</div>
+			<div>자식 노드를 갖지 않는 요소 (트리구조나무를 거꾸로했을때 체계적으로 구조화한것)</div>
+		</div>
+		<div class="row">
+			<div>:parent</div>
+			<div>$('td:parent')</div>
+			<div>자식 노드를 갖고 있는  요소 (트리구조나무를 거꾸로했을때 체계적으로 구조화한것)</div>
+		</div>
+		<h3>자식필터</h3>
+		<div class="row">
+			<div>:first-child</div>
+			<div>$(':first-child')</div>
+			<div>같은 자식들이 있는 구조에서 첫번째</div>
+		</div>
+		<div class="row">
+			<div>:first-of-type</div>
+			<div>$(':first-of-type')</div>
+			<div>다른 자식들과 섞여 있을때 첫번째</div>
+		</div>
+		<div class="row">
+			<div>:nth-child(n)</div>
+			<div>$(':nth-child(n)')</div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div>:nth-of-type(n)</div>
+			<div>$(':nth-of-type(n)')</div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div>:last-child</div>
+			<div>$(':last-child')</div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div>:last-of-type</div>
+			<div>$(':last-of-type')</div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div>:nth-last-child(n)</div>
+			<div>$('nth-last-child(n)')</div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div>:nth-last-of-type(n)</div>
+			<div>$(':nth-last-of-type(n)')</div>
+			<div>뒤에서</div>
+		</div>
+		<div class="row">
+			<div>:only-child</div>
+			<div>$(':only-child')</div>
+			<div>많은 자식들중에서 혼자 있는 태그를 선택</div>
+		</div>
+		<h3>가시성 필터</h3>
+		<div class="row">
+			<div>:hidden</div>
+			<div>$('p:hidden')</div>
+			<div>css display:none;, type속성이 hidden, width와height:0;, 조상요소들을 숨길때</div>
+		</div>
+		<div class="row">
+			<div>:visible</div>
+			<div>$('table:visible')</div>
+			<div>표시(width또는 height가 0 초과) 할 요소</div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<h3>속성</h3>
+		<div class="row">
+			<div>[attribute]</div>
+			<div>#('[href]')</div>
+			<div>속성</div>
+		</div>
+		<div class="row">
+			<div>[attribute=value]</div>
+			<div>$('[href="default.html"]')</div>
+			<div>다음과 같은 속성과 값을 가진 요소</div>
+		</div>
+		<div class="row">
+			<div>[attribute!=value]</div>
+			<div>$('[href!="a.html"]')</div>
+			<div>다음과 같은 속성의 값이 아닌 요소</div>
+		</div>
+		<div class="row">
+			<div>[attribute=value]</div>
+			<div>$('[title|="Tomorrow"]')</div>
+			<div>속성명의 값이 일치하는 요소 혹은 value값과 뒤이은 하이픈부터 시작하는 값과 일치하는 요소</div>
+		</div>
+		<div class="row">
+			<div>[attribute$=value]</div>
+			<div>$('[href*=".jpg"]')</div>
+			<div>속성명의 값이 value값으로 끝나는 요소</div>
+		</div>
+		<div class="row">
+			<div>[attribute^=value]</div>
+			<div>$('[title^="Tom"]')</div>
+			<div>속성명의 값이 value값으로 시작하는 요소</div>
+		</div>
+		<div class="row">
+			<div>[attribute~=value]</div>
+			<div>$('[title~="hello"]')</div>
+			<div>속성명의 값에서 공백으로 구분된 목록 중 하나가 value 값인 요소</div>
+		</div>
+		<div class="row">
+			<div>[attribute*=value]</div>
+			<div>$('[title*="hello"]')</div>
+			<div>속성명 값이 value값 전체를 포함하는 요소</div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<h3>양식</h3>
+		<div class="row">
+			<div>:input</div>
+			<div>$(':input')</div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div>:text</div>
+			<div>$(':text')</div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div>:password</div>
+			<div>$('password')</div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div>:radio</div>
+			<div>$(':radio')</div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div>:checkbox</div>
+			<div>$(':checkbox')</div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div>:submit</div>
+			<div>$(':submit')</div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div>:reset</div>
+			<div>$('reset')</div>
+			<div>초기화버튼</div>
+		</div>
+		<div class="row">
+			<div>:button</div>
+			<div>$(':button')</div>
+			<div>버튼</div>
+		</div>
+		<div class="row">
+			<div>:image</div>
+			<div>$(':image')</div>
+			<div>이미지</div>
+		</div>
+		<div class="row">
+			<div>:file</div>
+			<div>$(':file')</div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div>:enabled</div>
+			<div>$(':enabled')</div>
+			<div>입력할수 잇다</div>
+		</div>
+		<div class="row">
+			<div>:disabled</div>
+			<div>$(':disabled')</div>
+			<div>입력할수 없다</div>
+		</div>
+		<div class="row">
+			<div>:selected</div>
+			<div>$(':selected')</div>
+			<div>셀렉트 옵션에 들어가는 selected에 selected가 되었을 때</div>
+		</div>
+		<div class="row">
+			<div>:checked</div>
+			<div>$(':checked')</div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

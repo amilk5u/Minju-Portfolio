@@ -1,0 +1,60 @@
+﻿<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>3-6_prevAll</title>
+	<script src=js/vender/jquery-3.2.1.min.js></script>
+	<style>
+		.siblings * { 
+			display: block;
+			border: 2px solid lightgrey;
+			color: lightgrey;
+			padding: 5px;
+			margin: 15px;
+		}
+	</style>
+	
+	<script>
+		$(document).ready(function(){
+			$('.start').prevAll().css({'color':'red','border':'3px solid black'});
+		});		 <!-- 선택된것의 바로 뒤에 오는 모두 다 선택해라  -->
+	</script>
+	
+</head>
+<body>
+
+<div style="width:500px;" class="siblings">
+  <ul>ul (parent)  
+    <li>li (sibling)</li>
+    <li>li (sibling)</li>
+	<ul>아아아아아</ul>
+	<ul>아아아아아</ul>
+	<ul>아아아아아</ul>
+    <li class="start">li (sibling with class name "start")</li>
+    <li>li (the next sibling of li with class name "start")</li>
+    <li>li (the next sibling of li with class name "start")</li>
+    <li>li (the next sibling of li with class name "start")</li>
+	<div class="min">어어어어</div>
+  </ul>   
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

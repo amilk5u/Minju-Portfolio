@@ -1,0 +1,51 @@
+﻿<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>2-2_find</title>
+	<script src=js/vender/jquery-3.2.1.min.js></script>
+	<style>
+	.descendants * { 
+		display: block;
+		border: 2px solid lightgrey;
+		color: lightgrey;
+		padding: 5px;
+		margin: 15px;
+	}
+	</style>
+	<script>
+		$(document).ready(function(){
+			$("div").find('span').css({"color": "red", "border": "2px solid red"});	
+		});				<!-- 자신보다 하위에 있는 선택자를 선택하여라  -->
+	</script>
+</head>
+<body>
+
+	<div class="descendants" style="width:500px;">div (current element) 
+	  <p>p (child)
+		<span>span (grandchild)</span>     
+	  </p>
+	  <p>p (child)
+		<span>span (grandchild)</span>
+	  </p> 
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

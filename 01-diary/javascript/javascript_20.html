@@ -1,0 +1,51 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>if 조건문 02</title>
+	<link rel="stylesheet" href="css/javascript_20.css" />	
+	<script>		
+		//변수선언
+		var date=new Date();			//new Date(); ---> 현재날짜
+		var hour=date.getHours();		//date.getHours(); --->현재시간
+		
+		
+		//alert(hour);			// 현재시간을 변수로 hour 이라고 정해놨으니 alert 하고 hour 이라적으면 현재시간이 표시된다
+		
+		//if 조건문
+		//if(hour<12){
+		//	alert('오전입니다');
+		//}
+		//if(hour>=12){
+		//	alert('오후입니다'); 
+		//}
+	</script>
+</head>
+<body>
+	<button type="button" onclick="document.getElementById('demo').innerHTML=hour+ '시 입니다'; ">현재 시각은</button>
+	<p id="demo"></p> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

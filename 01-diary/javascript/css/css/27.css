@@ -1,0 +1,30 @@
+﻿*{padding:0; margin:0;}
+body{
+	margin-top:50px;
+	margin-left:50px;
+}
+p{margin-top:10px;}
+div{
+	margin:10px;  margin-top:20px;
+	width:100px; height:100px;
+	border:10px solid #B35900;
+	float:left;
+}
+div:nth-of-type(1){
+	background:#fff;
+	-webkit-box-sizing:content-box;
+	box-sizing:content-box;
+}
+
+div:nth-of-type(2){
+	background:orange;
+	-webkit-boxsizing:border-box;
+	box-sizing:border-box;
+}
+div:nth-of-type(3){
+		
+
+	background:#ccc;
+
+}
+

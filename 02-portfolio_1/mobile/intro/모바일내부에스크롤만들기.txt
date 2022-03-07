@@ -1,0 +1,9 @@
+<!-- 실제 페이지에 추가로 적용하기 위한 사용자 스크립트 -->
+<script type="text/javascript">
+    var myScroll;
+    function loaded() {
+        myScroll = new iScroll('wrapper');
+    }
+    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+    document.addEventListener('DOMContentLoaded', loaded, false);
+</script>

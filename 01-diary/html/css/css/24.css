@@ -1,0 +1,23 @@
+﻿/* body{
+	background:url('../img/3.JPG') repeat-y;
+} */
+/* body{
+	background-image:url('../img/2.jpg');
+	background-size:70%;	
+	background-repeat:repeat-y;
+}*/
+
+/*   .box{
+	background-image:url('../img/2.jpg');
+	width:300px;
+	height:400px;
+	background-size:100%;
+	background-repeat:no-repeat;
+ }
+ */
+ 
+  body{
+	background-image:url('../img/2.jpg');
+	background-size:80%;
+	background-repeat:no-repeat;    /* 반복하지 말아라.  */
+ }

@@ -1,0 +1,23 @@
+﻿*{margin:0;padding:0;font-amily: 'dotum' , san-serif; font-size:14px;}
+html{overflow-y:scroll;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:0;}
+body>p{
+	width:300px;
+	border:3px solid black;	
+}
+.ellipsis{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+img{ float:left;}
+.textbox{float:left; padding-top:10px; padding-left:10px; background-color:#EEEEEE; height:60px;}
+.textbox p{width:180px;}
+.textbox span{display:block;}
+
+/* .thumnail{overflow:hidden; padding:5px; border:2px solid rgba(0,0,0,.05); width:295px; display:table;}
+.thumnail .textbox{display:table-cell;}
+.thumnail. textbox p{vertical-align:middle;} */

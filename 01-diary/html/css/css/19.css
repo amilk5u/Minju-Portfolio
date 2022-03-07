@@ -1,0 +1,6 @@
+﻿p:first-of-type::selection{
+	background:yellow; /*배경은 노랑색*/
+	color:pink; /*드래그했을때 분홍글씨나타남*/
+}
+
+p:nth-of-type(2)::selection{color:red;background-color:pink;}

@@ -1,0 +1,150 @@
+﻿*{margin:0; padding:0; font-family:"맑은 고딕", "dotum", san-serif;}
+body{
+	width:600px;
+	margin:0 auto;
+}
+img{border:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+p{margin-bottom:50px;}
+h1:nth-of-type(2){
+	margin-bottom:20px;
+}
+h2{margin-bottom:15px;	}
+ul{
+	margin-bottom:20px;
+}
+div{
+	margin-bottom:20px;
+}
+.box{
+	width:100px;
+	height:100px; 
+	background-color:#FFE599; 
+	transition-duration: 2s;
+}
+.box:hover{
+	width:200px; 
+	height:300px; 
+	background-color:#FFBFBF;
+	border-radius:100px 50px;
+	border:5px solid #9999FF;
+	box-sizing:border-box;
+}
+.box:active{
+	background-color:red;
+}
+.box{
+	width:100px; height:30px;
+	background-color:red;
+	transition-duration: 5s;
+}
+.box01:hover{
+	width:500px; height:30px;
+	background-color:red;	
+}
+
+
+.graph{
+	border:3px solid #4C79FF;
+}
+
+.bar,
+.bar01{
+	width:100px;
+	height:45px;
+	background-color:#BFFFBF;
+	margin:5px;
+	transition-duration:2s;
+}
+
+.graph:hover .bar,
+.graph:hover .bar01{
+
+	width:584px;	
+}
+.graph:hover .bar:nth-child(1){
+	background-color:#FFBFDF;
+	width:584px;	
+}
+.graph:hover .bar:nth-child(2){
+	background-color:#4CFF4C;
+	width:584px;	
+}
+.graph:hover .bar:nth-child(3){
+	background-color:#7396FF;
+	width:584px;	
+}
+.graph:hover .bar:nth-child(4){
+	background-color:#FFDC73;
+	width:584px;	
+}
+.graph:hover .bar:nth-child(5){
+	background-color:#DFFFBF;
+	width:584px;	
+}
+
+
+.bar:nth-child(1){transition-delay:0s;}
+.bar:nth-child(2){transition-delay:4s;}
+.bar:nth-child(3){transition-delay:2s;}
+.bar:nth-child(4){transition-delay:8s;}
+.bar:nth-child(5){transition-delay:1s;}
+
+
+
+.bar01:nth-child(1){transition-timing-function:linear;}
+.bar01:nth-child(2){transition-timing-function:ease;}
+.bar01:nth-child(3){transition-timing-function:sase-in;}
+.bar01:nth-child(4){transition-timing-function:sase-in-out;}
+.bar01:nth-child(5){transition-timing-function:ease-out;}
+.bar01:nth-child(5){transition-timing-function:cubic-bezier(.17,.67,.83,.67);}
+
+
+
+.bar02{
+	width:10px;
+	height:50px;
+	background-color:#4C79FF;
+	margin:5px;
+	
+	transition-porperty:background-color, width;
+	transition-duration:2s, 5s;
+}
+.graph:hover .bar02{
+	background-color:#FF4C79;
+	width:584px;
+}
+
+.bar03{
+	width:10px;
+	height:50px;
+	background-color:#FF7396;
+	margin:5px;
+	
+	/* porperty duration function delay 순서로 입력합니다. */
+	transition:background-color 2s ease, width 5s linear 3s;
+	
+}
+.graph:hover .bar03{
+	background-color:#73FF96;
+	width:584px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

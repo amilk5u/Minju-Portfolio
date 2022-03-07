@@ -1,0 +1,15 @@
+﻿a{transition:all .3s;}
+body{
+	background-color:gray;
+	background-image:url('../img/2.jpg');
+	background-size:100% 500px;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+.box{
+	margin-top:600px;
+	height:500px;
+	background:white;
+	text-align:center;		
+}

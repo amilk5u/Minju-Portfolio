@@ -1,0 +1,37 @@
+﻿*{margin:0; padding:0; margin:8px;}
+body{width:700px; margin:0 auto;}
+#box{
+	width:300px;
+	height:300px;
+	background:linear-gradient(45deg, #FFDFBF 0%, #006666 100%);
+	border-radius:400px;
+	text-align:center;
+	line-height:300px;
+	font-size:5em;
+	color:white;
+	position:absolute;
+	margin:0 auto;
+	cursor:pointer;
+	
+	animation-name:cycle;
+	animation-duration:3s;				/* 3초동안 액션을 지속해라 */
+	animation-iteration-count:infinite;    /* <<는 무한대 또는 숫자를 입력하면 그횟수만큼 움직인다. */
+	animation-timing-function:ease;   /* sase-in /sase-out  */
+	animation-direction:alternate;   	/* or  normal = infinite 와 같은 뜻이다. 계속 form에서 to로 이동해라 */
+}
+#box:hover{
+	animation-play-state:paused;
+}
+@keyframes cycle{
+	from{
+		left:10px;
+		tranform:rotate(5deg);
+	}	
+	50%{
+		left:500px;
+	}	
+	to{
+		left:100%;
+		tranform:rotate(5deg);
+	}
+}

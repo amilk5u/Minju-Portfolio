@@ -1,0 +1,10 @@
+@charset "utf-8";
+@font-face {
+  font-family:'HamchorongdodumR';
+/*   src: url(../fonts/HamchorongdodumR.eot);
+  src: url(../fonts/HamchorongdodumR.woff) format('woff'),
+       url(../fonts/HamchorongdodumR.ttf) format('truetype'),
+       url(../fonts/HamchorongdodumR.eot?#iefix) format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}

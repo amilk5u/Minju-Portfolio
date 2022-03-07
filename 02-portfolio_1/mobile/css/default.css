@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/* 모바일용 CSS */
+/* 기본 CSS */
+.container{}    
+
+.cfixed:after, .container:after{
+display:block;
+content:"";
+clear:both;
+}
+    
+.blind{
+position:absolute;
+width:0;
+height:0;
+line-height:0;
+text-indent:-9999px;
+overflow:hidden;
+}
+
+/* 헤더 영역 CSS */
+/* 슬라이더 영역 CSS */
+/* 컨텐츠 영역CSS*/
+/* 푸터 영역 CSS */
+
+
+/* 태블릿용 CSS */
+@media all and (min-width:768px){
+
+/* 기본 CSS */
+/* 헤더 영역 CSS */
+/* 컨텐츠영영역 CSS */
+/* 푸터 영역 CSS */
+}
+
+/* PC용 CSS */
+@media all and (min-width:1132px){
+    
+/* 디스플레이 영역 CSS */
+ 
+}

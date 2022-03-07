@@ -1,0 +1,21 @@
+.wraper{
+	width:960px; margin:0 auto; margin-top:100px;
+	display:table;
+}
+.wraper .row{
+	display:table-row;
+	line-height:45px;
+}
+.wraper .row div{
+	display:table-cell;
+	padding-left:20px;
+}
+.wraper .row:nth-of-type(even){
+	background-color:#BFEFFF;
+}
+.wraper .row div:nth-of-type(1){
+	width:30%;
+}
+.wraper .row div:nth-of-type(2){
+	width:70%;
+}

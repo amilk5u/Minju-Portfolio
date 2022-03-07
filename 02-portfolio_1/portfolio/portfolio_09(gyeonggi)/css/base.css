@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+@font-face {
+  font-family:'Title_Light';
+  src: url(../fonts/Title_Light.eot);
+  src: url(../fonts/Title_Light.woff) format('woff'),
+       url(../fonts/Title_Light.ttf) format('truetype'),
+       url(../fonts/Title_Light.eot?#iefix) format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,205 @@
+﻿body{  font-family: 'malgun';}
+header{
+	height:65px;
+	background:red;
+	position:absolute;
+	width:100%;
+}
+/* 헤더 */
+.header{background-color:#EFBFFF;
+	position:fixed;
+	z-index:1;
+	width:100%;
+}
+/* 메뉴메인 네비-------------- */
+.header #main_nav{
+	width:760px;
+	position:absolute; left:50%;
+	transform:translate(-50%);
+	top:30px;
+}
+.header #main_nav  li{
+	float:left;
+	text-align:center;
+	font-size:1.05rem;
+	margin-left:40px;
+	cursor:pointer;
+	color:#626262;
+	width:120px;	
+	padding-bottom:8px;
+}
+.header #main_nav  li:hover {font-family: 'malgunbd';}
+.header #main_nav  a:nth-child(1) li{margin-left:0;}
+.header #main_nav  a:nth-child(3) li{border-bottom:2.5px solid #626262; font-family: 'malgunbd';}
+/* 서브네비 ----------------*/
+.onepage-pagination{top:30%;}
+.sub_nav{
+	text-align:right;
+	position:fixed;
+	right:65px;
+	top:30%;	
+}
+.sub_nav li{font-size:.9rem; margin-toP:15px; transition:all .4s; color:#3C3C3C; opacity:0;}
+/* 푸터 */
+.footer{background-color:rgba(0,0,0,.5);
+	position:fixed;
+	z-index:1;
+	width:100%;
+	height:50px;
+	bottom:0;
+}
+.footer img{margin-left:20px; margin-top:10px; cursor:pointer;}
+.footer img:last-child{position:absolute; right:30px;}
+
+
+
+
+
+
+/* 스크롤------------------------------------------------------------- */
+#section01 .scroll{
+	position:absolute; left:50%; 
+	transform:translate(-50%);
+	top:83%;
+	width:100px;
+	height:100px;
+	cursor:pointer;
+}
+#section01 .scroll img:first-child{margin-left:35px; margin-top:15px;}
+#section01 .scroll img:last-child{margin-left:-55px; margin-top:70px;}
+
+
+
+/* 섹션 배경들 ----------------------------------------------------------------------------------------------*/
+#section01 .img{position:absolute; left:50%; transform:translate(-50%,-50%); top:55%;}  
+#section01 .background, #section02 .background, #section03 .background, #section09 .background
+{position:absolute; left:50%; transform:translate(-50%);}
+#section02 .textbox,#section03 .textbox{
+	position:absolute;
+	left:80%; transform:translate(-50%);
+	top:45%;
+}
+#section02 .text,#section03 .text{position:absolute; left:38%; top:-120px;}
+
+#section04 .background,#section05 .background,#section06 .background,#section07 .background,#section08 .background{position:absolute; left:0%;}
+#section04 .box,#section05 .box,#section06 .box,#section07 .box,#section08 .box{background-color:#DFDFDF;
+	position:absolute; 
+	width:50%; height:100vh; 
+	left:50%;
+}
+#section04 .textbox,#section05 .textbox,#section06 .textbox,#section07 .textbox,#section08 .textbox{
+	position:absolute;
+	top:50%; left:50%; 
+	transform:translate(-50%,-50%);	
+}
+#section04 .text,#section05 .text,#section06 .text,#section07 .text,#section08 .text{
+	position:absolute;
+	left:50%; top:-95px;
+	transform:translate(-50%);
+}
+
+/* 마지막 감싸기 부모re */
+#section09 .wrap{
+	width:100%; height:100vh;
+	position:relative;
+	z-index:1;	
+}
+/* 자식 ab */
+#section09 .wrap [class*=desk]{
+	position:absolute;
+	width:100%; height:100vh;
+}
+/* maindesk-------------------------------------------------------------------------------------------------- */
+.maindesk{}
+/* 책상이미지 */
+#section09 .maindesk .desk{
+	position:absolute; 
+	width:1750px; height:700px;
+	top:57%; left:50%;
+	transform:translate(-50%,-50%);
+}
+#section09 .maindesk .desk img{cursor:pointer;}
+#section09 .maindesk .desk img:last-child{margin-left:270px; margin-top:5px;}
+#section09 .maindesk .text{position:absolute; left:50%; top:50%; margin-left:-73.5px; margin-top:-8px;}
+/*leftdesk------------------------------------------------------------------------------------------- */
+.leftdesk{left:-100%; display:none;}
+.leftdesk .enable{
+	position:absolute;
+	top:16%; left:210px;
+	cursor:pointer;
+}
+.leftdesk .enable img{width:450px;}
+#section09 .wrap .leftdesk .box{
+	width:100px;
+	position:absolute;
+	top:36%; left:220px;
+	cursor:pointer;
+}
+/* big책상이미지 */
+.leftdesk .wrapper{position:absolute;	left:880px; top:8%;}
+.leftdesk .wrapper>img{position:absolute;}
+.leftdesk .wrapper>img:nth-of-type(2){display:none;}
+.leftdesk .wrapper>img:nth-of-type(3){display:none;}
+.leftdesk .wrapper .plus02{display:none;}
+.leftdesk .wrapper .plus03{display:none;}
+.leftdesk .wrapper [class*=plus0]>img{position:absolute; cursor:pointer;}
+/* plus01 */
+.leftdesk .plus01>img:nth-child(1){top:500px; left:55px;}
+.leftdesk .plus01>img:nth-child(2){top:300px; left:200px;}
+.leftdesk .plus01>img:nth-child(3){top:320px; left:420px;}
+.leftdesk .plus01>img:nth-child(4){top:160px; left:500px;}
+.leftdesk .plus01>img:nth-child(5){top:300px; left:750px;}
+/* plus02 */
+.leftdesk .plus02>img:nth-child(1), .plus03>img:nth-child(1){top:500px; left:55px;}
+.leftdesk .plus02>img:nth-child(2), .plus03>img:nth-child(2){top:410px; left:220px;}
+.leftdesk .plus02>img:nth-child(3), .plus03>img:nth-child(3){top:290px; left:260px;}
+.leftdesk .plus02>img:nth-child(4), .plus03>img:nth-child(4){top:160px; left:430px;}
+.leftdesk .plus02>img:nth-child(5), .plus03>img:nth-child(5){top:290px; left:410px;}
+.leftdesk .plus02>img:nth-child(6), .plus03>img:nth-child(6){top:300px; left:750px;}
+/* rightdesk--------------------------------------------------------------------------------------- */
+.rightdesk{left:100%; display:none;}
+.rightdesk .light{
+	position:absolute;
+	top:20%; left:1100px;
+	cursor:pointer;
+}
+.rightdesk .light img{width:450px;}
+.rightdesk .box{
+	width:100px; 
+	position:absolute;
+	top:42%; left:1150px;
+	cursor:pointer;
+}
+.rightdesk .box>img{margin-top:15px;}
+/* big책상이미지 */
+.rightdesk .wrapper{position:absolute;	left:150px; top:8%;}
+.rightdesk .wrapper>img{position:absolute;}
+.rightdesk .wrapper>img:nth-of-type(2){display:none;}
+.rightdesk .wrapper>img:nth-of-type(3){display:none;}
+.rightdesk .wrapper .plus02{display:none;}
+.rightdesk .wrapper [class*=plus0]>img{position:absolute; cursor:pointer;}
+/* plus01, plus02 */
+.rightdesk .plus01>img:nth-child(1), .rightdesk .plus02>img:nth-child(1){top:160px; left:160px;}
+.rightdesk .plus01>img:nth-child(2), .rightdesk .plus02>img:nth-child(2){top:280px; left:330px;}
+.rightdesk .plus01>img:nth-child(3), .rightdesk .plus02>img:nth-child(3){top:300px; left:700px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

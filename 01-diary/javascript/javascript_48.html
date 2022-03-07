@@ -1,0 +1,90 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>타이머함수</title>
+	<link rel="stylesheet" href="css/javascript_48.css" />
+	<script>
+		//3초 후에 함수를 실행
+		//setTimeout(function(){		//3초뒤에 한번 실행한다
+		//	alert('3초가 지났습니다');  //코드블록 뒤에 , 찍고 시간단위를 적어준다 3초는 3000 이다.
+		//}, 3000);
+		
+		//setInterval(function(){			//3초마다 계속 뜬다
+		//	alert('3초가 지났습니다'); 
+		//}, 3000);
+		
+		//1초마다 함수를 실행
+		//var intervalID = setInterval(function(){		//일정시간 마다 함수를 반복해서 실행해라
+		//	alert('<p>' + new Date()+'</p>');
+		//},1000);
+		//console. log(intervalID);		//이건잘모르겟아아아ㅏ아
+		
+		//10초 후에 함수를 실행
+		setTimeout(function(){
+			clearInterval(intervalID);	// clearInterval일정시간마다 함수를 반복하는것을 멈춰라
+		},10000);
+		
+		
+		
+		
+		
+	</script>
+</head>
+<body>
+	<div class="wraper">
+		<div class="row">
+			<div>메서드이름</div>
+			<div>설명</div>
+		</div>
+		<div class="row">
+			<div>setTimeout(function, millisecond)</div>
+			<div>일정시간 후 함수를 한 번 실행한다</div>
+		</div>
+		<div class="row">
+			<div>setInterval(function, millisecond)</div>
+			<div>일정시간 마다 함수를 반복해서 실행한다</div>
+		</div>
+		<div class="row">
+			<div>clearTimeout(id)</div><!--  아이디값은 함수명도 될수있다. -->
+			<div>일정시간 후 함수를 한 번 실행하는 것을 중지한다</div>
+		</div>
+		<div class="row">
+			<div>clearInterval(id)</div>
+			<div>일정시간 마다 함수를 반복하는 것을 중지한다</div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+		</div>
+		<div class="row">
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

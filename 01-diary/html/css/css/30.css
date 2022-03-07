@@ -1,0 +1,10 @@
+﻿label{
+	background-color:red;
+}
+
+
+
+input#TABS01:checked~#.content01{
+	height:0;
+	
+}

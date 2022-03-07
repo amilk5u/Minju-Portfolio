@@ -1,0 +1,40 @@
+﻿*{paddign:0; margin:0;}
+
+body{
+	width:960px; margin:0 auto;
+}
+#header{text-align:center;}
+#nav{text-align:center;}
+
+#aside{
+	width:200px;
+	float:left;
+	
+}
+#section{
+	width:760px;
+	float:left;
+}
+#wrapper{
+	/* overflow:hidden; */
+	
+}
+/* #wrapper::after{
+	content:""; display:black; clear:both;
+	
+} */
+#footer{
+/* 	clear:both; */
+}
+
+.clfix::after{
+	content:""; display:black; clear:both;  /* clear:both 고정한다 */
+}
+article{
+	padding:30px;	
+	padding-top:0px;	
+}
+
+#section h1{
+	margin-bottom:30px;
+}

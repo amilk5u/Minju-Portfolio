@@ -1,0 +1,13 @@
+﻿p:first-child::first-letter{
+	font-size:7em;
+}
+
+p::first-line{
+	color:red
+}
+
+p:nth-of-type(2){
+	background:yellow
+}
+
+h1::first-letter{color:red;}

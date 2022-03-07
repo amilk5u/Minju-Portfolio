@@ -1,0 +1,54 @@
+﻿<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>3-5_prev</title>
+	<script src=js/vender/jquery-3.2.1.min.js></script>
+	<style>
+		.siblings * { 
+			display: block;
+			border: 2px solid lightgrey;
+			color: lightgrey;
+			padding: 5px;
+			margin: 15px;
+		}
+	</style>
+	
+	<script>
+		$(document).ready(function(){
+			$('.start').prev().css({'color':'red','border':'3px solid black'});
+		});			 <!-- 선택된 것의 바로 앞에 오는 태그를 선택해라 -->
+	</script>
+	
+</head>
+<body>
+
+	<div style="width:500px;" class="siblings">
+	  <ul>ul (parent)  
+		<li>li (sibling)</li>
+		<li>li (the previous sibling of li with class name "start")</li>
+		<li class="start">li (sibling with class name "start")</li>
+		<li>li (sibling)</li>
+		<li>li (sibling)</li>
+	  </ul>   
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

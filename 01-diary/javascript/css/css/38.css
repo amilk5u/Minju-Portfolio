@@ -1,0 +1,46 @@
+﻿body{
+	font-family:"NanumGothicLight";
+	font-size:12px;
+	color:#777;
+}
+  /* 웹에서 코드 생성기를 통해 적용하기 */
+.colorBox01{  
+	background: rgb(246,248,249); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+	background-color:gold;
+	width:200px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	color:black;	
+	margin:0 auto;
+	margin-top:250px;
+}
+ /* 그라디언트 직접 입력해서 만들기 */
+.colorBox02{
+	width:200px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	color:white;
+	margin:0 auto;
+	margin-top:30px;
+	/* background:linear-gradient(to bottom, #FFCFBF 0%, #ffffff 100%);*/
+	background:linear-gradient(90deg, #FFCFBF 0%, #300040 100%);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

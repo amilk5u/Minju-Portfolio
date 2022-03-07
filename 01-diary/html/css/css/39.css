@@ -1,0 +1,105 @@
+﻿*{margin:0; padding:0;}
+body{
+	width:1200px;
+	margin:0 auto;
+}
+#header{	
+}
+#contents{
+	width:1200px;
+}
+.section01{
+	width:1200px;
+	overflow:hidden;
+}
+.section01>.articl01{
+	width:720px;
+	float:left;
+}
+.section01>.articl02{
+	width:236px;
+	float:left;
+}
+.section01>.articl03{
+	width:241px;
+	float:left;
+}
+.section02>.articl01{
+	width:238px;
+	float:left;	
+}
+.section02>.articl02{
+	width:239px;
+	float:left;
+}
+.section02>.articl03{
+	width:239px;
+	float:left;
+}
+.section02>.articl04{
+	width:480px;
+	float:left;
+}
+.section03>.articl01{
+	width:238px;
+	float:left;
+}
+.section03>.articl02{
+	width:240px;
+	float:left;
+}
+.section03>.articl03{
+	width:241px;
+	float:left;
+}
+.section03>.articl04{
+	width:238px;
+	float:left;
+}
+.section03>.articl05{
+	width:238px;
+	float:left;
+}
+.section03>.articl06{
+	width:237px;
+	float:left;
+}
+#footer{
+	width:1200px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

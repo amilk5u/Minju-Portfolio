@@ -1,0 +1,63 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>선언적 함수</title>
+	<script>
+		// var 함수= function(){}  <--> function 함수(){}
+		// var 함수= function 함수(){alert('함수 A');};
+		// var 함수= function 함수(){alert('함수 B');};
+		//함수();
+		
+		//function 함수(){alert('함수 A');};		저장고 /변수선언이라서 마침표가 들어간다
+		//function 함수(){alert('함수 B');};
+		//함수();
+		
+		//익명함수와 선언적 함수의 차이점!!!!!
+		//함수();
+		//var 함수= function 함수(){alert('함수 A');};
+		//var 함수= function 함수(){alert('함수 B');};
+		
+		//오류의 예(변수가 선언되기 이전에 출력하면 오류발생함다<찾을수 없다>)
+		//alert(a); //오류!!
+		//var a= 123;
+		
+		//변수에 담은 함수는 앞에서 호출하면 오류가 난다
+		함수(); ----> 오류		
+		var 함수= function 함수(){alert('함수 A');};
+		var 함수= function 함수(){alert('함수 B');};		
+		함수(); ----> 정상
+		
+	</script>
+</head>
+<body>
+	<h2>선언적 함수</h2>
+	<ul>
+		<li>function 함수(){};</li>
+	</ul>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

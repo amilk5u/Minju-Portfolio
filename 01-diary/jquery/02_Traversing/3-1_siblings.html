@@ -1,0 +1,50 @@
+﻿<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>3-1_siblings</title>
+	<script src=js/vender/jquery-3.2.1.min.js></script>
+	<style>
+		.siblings * { 
+			display: block;
+			border: 2px solid lightgrey;
+			color: lightgrey;
+			padding: 5px;
+			margin: 15px;
+		}
+	</style>
+	<script>
+		$(document).ready(function(){
+			$('p').siblings().css({'color': 'pink', 'border': "10px solid pink"});   <!-- p는왜안될까 -->
+		});					<!-- 선택된 h3 빼고 동의 선상에 있는 모든 태그를 선택해라 -->
+	</script>
+</head>
+<body class="siblings">
+
+	<div>div (parent)
+	  <p>p</p>
+	  <span>span</span>
+	  <h2>h2</h2>
+	  <h3>h3</h3>
+	  <p>p</p>
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

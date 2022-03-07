@@ -1,0 +1,37 @@
+.table{
+	display:table;
+	width:960px;
+	position:fixed;
+	top:50px;
+	left:-900px;
+}
+.row{
+	display:table-row;
+	width:100%;
+}
+.row > div{
+	display:table-cell;
+	width:300px;
+}
+.row > div:last-child{
+	width:60px;
+	position:relative;
+}
+.toggle{
+	width:60px;
+	height:60px;
+	background:#007FFF;
+	color:white;
+	position:absolute;
+	left:50%;
+	top:0;
+	line-height:60px;
+	text-align:center;
+	transform:translateX(-50%);
+}
+/* div{
+	width:300px;
+	height:300px;
+	background:pink;
+	position:absolute;
+} */

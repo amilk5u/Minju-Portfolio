@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+ @font-face {
+  font-family: 'Gotchan';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Gotchan.eot);
+  src: url(../fonts/Gotchan.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/Gotchan.woff2) format('woff2'),
+       url(../fonts/Gotchan.woff) format('woff'),
+       url(../fonts/Gotchan.ttf) format('truetype');
+} 
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: lighter;
+  font-weight: 400;
+  src: url(../fonts/NanumBarunGothic.eot);
+  src: url(../fonts/NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/NanumBarunGothic.woff2) format('woff2'),
+       url(../fonts/NanumBarunGothic.woff) format('woff'),
+       url(../fonts/NanumBarunGothic.ttf) format('truetype');
+} 
+
+.ko{
+  font-family: 'NanumBarunGothic';
+  
+}
+.lg{
+  font-family: 'Gotchan';
+  letter-spacing:2px;
+}
+.two{
+  font-family:'Gotchan', 'NanumBarunGothic';
+}
+
+
+
+
+/*
+ * Nanum Gothic Coding (Korean) http://www.google.com/fonts/earlyaccess
+ */
+/* @font-face {
+  font-family: 'Nanum Gothic Coding';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic Coding';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/nanumgothiccoding/v4/NanumGothicCoding-Bold.ttf) format('truetype');
+} */

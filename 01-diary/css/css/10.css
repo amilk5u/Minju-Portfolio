@@ -1,0 +1,9 @@
+﻿h1+h2{
+	color:pink;
+}
+h1~h2{
+	background:#FFE599   /* h1 뒤에 h2 모두를 선택 */
+}
+ul li+li{
+	color:red;
+}

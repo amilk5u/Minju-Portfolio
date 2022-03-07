@@ -1,0 +1,21 @@
+﻿.slideShow{
+	overflow:hidden;
+	position:relative;
+	min-width:960px;
+	height:465px;
+}
+.slideShow img{
+	display:none;
+	width:1200px;
+	height:465px;
+	position:absolute;
+	left:50%;
+	transform:translate(-50%);
+}
+ol{
+	width:970px;
+	margin:0 auto;
+	margin-top:50px;
+	line-height:30px;
+}
+

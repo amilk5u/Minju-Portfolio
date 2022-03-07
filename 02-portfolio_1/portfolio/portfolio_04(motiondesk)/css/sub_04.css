@@ -1,0 +1,73 @@
+﻿body{  font-family: 'malgun';}
+/* 헤더 */
+.header{background-color:white;
+	position:fixed;
+	z-index:1;
+	width:100%;
+	height:95px;
+}
+/* 메뉴메인 네비-------------- */
+.header #main_nav{
+	width:760px;
+	position:absolute; left:50%;
+	transform:translate(-50%);
+	top:30px;
+}
+.header #main_nav  li{
+	float:left;
+	text-align:center;
+	font-size:1.05rem;
+	margin-left:40px;
+	cursor:pointer;
+	color:#626262;
+	width:120px;	
+	padding-bottom:8px;
+}
+.header #main_nav  li:hover {font-family: 'malgunbd';}
+.header #main_nav  a:nth-child(1) li{margin-left:0;}
+.header #main_nav  a:nth-child(5) li{border-bottom:2.5px solid #626262; font-family: 'malgunbd';}
+
+/* 푸터----------------------------------------------------------- */
+.footer{background-color:rgba(0,0,0,.5);
+	position:fixed;
+	z-index:1;
+	width:100%;
+	height:50px;
+	bottom:0;
+}
+.footer img{margin-left:20px; margin-top:10px; cursor:pointer;}
+.footer img:last-child{position:absolute; right:30px;}
+
+.header .img{background-color:white;
+	width:1100px;
+	margin:0 auto;
+	margin-top:90px;
+	border-bottom:1px solid #999;
+}
+
+.header .img img{margin-top:20px;}
+
+
+
+
+.wrap{
+	width:1100px; height:3480px;
+	margin:0 auto;
+	padding-top:220px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

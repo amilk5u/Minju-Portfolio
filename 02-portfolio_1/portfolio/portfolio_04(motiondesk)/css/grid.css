@@ -1,0 +1,80 @@
+@media screen and (max-width:767px){
+#content .product{width:85%;}
+
+#content #section04 .awards .box02 img{position:static; min-width:300px; float:left;}
+
+
+
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:959px){
+#section01 .box01,
+#section02 .box01,
+#section03 .box01,
+#section04 .box01,
+#section05 .box01,
+#section06 .box01,
+#section07 .box01,
+#section08 .box01,
+#section09 .box01,
+#section10 .box01
+{width:50%;  float:left;}
+
+#content #section04 .awards .box02 img{position:static; width:80%; float:left;}
+
+
+
+}
+
+@media screen and (min-width:960px){
+#section01 .box01,
+#section02 .box01,
+#section03 .box01,
+#section04 .box01,
+#section05 .box01,
+#section06 .box01,
+#section07 .box01,
+#section08 .box01,
+#section09 .box01,
+#section10 .box01
+{width:33.333333333333%; float:left;}
+
+#content #section04 .awards .box02 img{position:static; width:70%; float:left;}
+
+
+}
+@media screen and (min-width:1200px){
+#section01 .box01,
+#section02 .box01,
+#section03 .box01,
+#section04 .box01,
+#section05 .box01,
+#section06 .box01,
+#section07 .box01,
+#section08 .box01,
+#section09 .box01,
+#section10 .box01
+{width:25%;  float:left;}
+
+
+
+
+#content #section04 .awards .box02 img{position:static; width:50%; float:left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

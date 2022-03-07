@@ -1,0 +1,24 @@
+.wraper{
+	width:960px;
+	margin:0 auto;
+}
+.table{
+	width:100%;
+	display:table;
+}
+.row{
+	display:table-row;
+}
+
+.row div{
+	display:table-cell;
+	line-height:50px;
+	padding:10px;
+}
+.row:nth-child(odd){
+	background:#ECECFB;
+}
+.row div:first-child{
+	font-size:14px;
+	color:#313140;
+}

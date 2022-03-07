@@ -1,0 +1,10 @@
+﻿$(document).ready(function(){
+	$(':header').css({
+		'margin-bottom':'30px',
+		'font-size':'25px'
+	});
+	$('h2').css({
+		fontSize:'16px'
+		color:'#ccc'
+	});
+});

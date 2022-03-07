@@ -1,0 +1,77 @@
+﻿a{text-decoration:none; color:#555555; display:block;}
+li{list-style:none;}
+*{margin:0; padding:0;}
+header{
+	width:960px;
+	height:120px;
+	background-color:#CCCCCC;
+	margin:0 auto;
+	margin-top:50px;
+}
+nav{
+	width:960px;
+	height:50px;
+	background-color:#777777;
+	margin:0 auto;
+}
+.gnb{
+	width:960px;
+	height:50px;
+	background-color:black;
+}
+.gnb > ul > li{
+	width:192px;											/* 센터메뉴들 */
+	background-color:#AAAAAA;						/* 칼라 */
+	float:left;					
+	line-height:50px;						
+	text-align:center;
+}
+
+.gnb>ul>li>ul{
+	display:none;				/* MENU01안의 ul을 안보이게 하라 */
+}
+
+
+.gnb>ul>li:first-child>a{transition-duration:1s;}			/* MENU01 에 액션을 줘라 */
+.gnb>ul>li:nth-child(1)>ul>li{transition-duration:.2s;}	/* MUNU01 안에 서브메뉴에 액션을 줘라 */
+.gnb>ul>li:nth-child(1)>a:hover{color:white; opacity:.5;} /* MENU01에 호버했을때 나타내는 액션 */
+.gnb>ul>li:nth-child(1)>ul>li:hover{color:white;}		/* MUNU01를 호버 했을때 a 뒤에 있는 ul을 블록하라 */
+.gnb>ul>li:nth-child(1):hover a ~ ul{display:block;}
+
+
+
+.gnb>ul>li:nth-child(2)>a{transition-duration:0.5s;}
+.gnb>ul>li:nth-child(2)>ul>li{transition-duration:.4s;}
+.gnb>ul>li:nth-child(2)>a:hover{background-color:#CFBFFF;}
+.gnb>ul>li:nth-child(2)>ul>li:hover{background-color:#DDDDDD; color:white;}
+.gnb>ul>li:nth-child(2):hover a ~ ul{display:block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,118 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>변수</title>
+	<link rel="stylesheet" href="css/javascript_10.css" />
+	<link rel="stylesheet" href="js/prefixfree.min.js" />
+</head>
+<body>
+	<h1>변수란?</h1>
+	<p>값을 지정할 때 사용하는 실력자</p>
+	<p>이름은 변수지만 숫자 자료형뿐만 아니라 모든 자료형을 저장 할 수 있다</p>
+	
+	
+	<button type="button" onclick="document.getElementById('demo').innerHTML = cycle">원의둘레는</button>
+	<div id="demo"></div>
+	
+	<h2>변수 생성과 사용</h2>
+	<ol>
+		<li>변수를 선언한다</li>
+		<li>변에 값을 할당한다</li>
+	</ol>
+	<script>
+		//  var 식별자;
+		
+		// 변수 선언
+		var pi;		
+		
+		// 변수의 선언과 할당
+		pi = 3.14159265;
+		
+		// 변수를 선언하고 초기화 하기
+		
+		var pi = 3.14159265;   //속성표기
+		// 출력하기
+		<!-- alert(pi);  --> <!-- 괄호안은 매개변수이다 괄호안에가 빈공간일때는 호출한다는 뜻  --> 
+		
+		//원의 반지름을 변수로 저장하기
+		var radius = 10;
+
+		
+		
+		//var pi = 3.14, radius = 10;
+		//	a = 1234,
+		//	b = 1234,
+		//	c = 4444,
+		//	d = 3.14,
+		//	e = 3.14,
+		//	radius = 3.14,
+			
+			
+		var pi = 3.14;
+		var radius = 20;
+		<!-- alert( '원의 둘레는 ' + radius * 2 * pi + ' 입니다'); -->
+		
+		
+		var cycle = ( '원의 둘레는 ' + radius * 2 * pi + ' 입니다');
+		
+		// ID 값이 demo인 요소에게 변수를 적용하기
+		<!-- document . getElementById('demo') . innerHTML = cycle; -->
+		
+	</script>
+	<h2>자바스크립트의 자료형</h2>
+	<ul>
+		<li>var stringVar = 'String';</li>
+		<li>var numberVar = 273;</li>
+		<li>var booleanVar = true;</li>
+		<li>var functionVar = function(){}; </li>
+		<li>var objectVar = {}; </li>
+	</ul>
+	<script>
+		// 변수 선언
+		var stringVar = 'String';
+		var numberVar = 273;
+		var booleanVar = true;
+		var functionVar = function(){};    
+		var objectVar = {};   
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

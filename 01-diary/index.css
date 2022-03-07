@@ -1,0 +1,83 @@
+﻿*{margin:0 auto;	background:#fffef1;}
+
+
+
+
+
+
+a{color:#777;	text-decoration:none; font-size:14px;}
+li{margin-top:10px;}
+h1{
+	width:200px;
+	line-height:100px;
+	margin-top:100px;
+	margin-bottom:100px;	
+}
+h2{
+	font-size:1em;	
+	padding:20px;
+	border:2px dotted #DFDFD0;
+	border-radius:20px;
+	background-color:#FFFFFF;
+	text-align:center;
+}
+.content01,.content02,.content03,.content04{			
+	float:left;
+	width:23.5%;
+	margin:0 auto;
+	margin-bottom:150px;
+	overflow:hidden;
+	margin-left:1%;
+	margin-bottom:50px;
+}
+.content01 ul, .content02 ul, .content03 ul, .content04 ul{
+	height:1000px; 
+	overflow-y:scroll; 
+	height:500px;
+	padding-left:50px;
+	padding-top:30px;
+}
+.contents{
+	width:97%;
+	margin:0 auto;
+}
+.content05{clear:both;}
+.content05 ul{
+	height:500px;
+	padding-left:60px;
+	padding-top:30px;
+		float:left;
+}
+.content01 ul>li:nth-child(-n+5){color:red;}
+.content02 ul>li:nth-child(-n+32){color:red;}
+
+.content02 h4{padding:10px; margin-left:-30px; margin-top:4px;}
+.content04 h4{padding:10px; margin-left:-30px; margin-top:4px;}
+.content05 h4{padding:10px; margin-left:-30px; margin-top:4px;}
+.content05 h5{padding:2px; margin-left:-20px;}
+.content04 h5{padding:2px; margin-left:-20px; margin-top:6px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

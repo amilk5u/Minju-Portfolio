@@ -1,0 +1,26 @@
+﻿html{overflow-y:scroll;}
+img{border:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+section{	
+	width:300px;
+	height:300px;
+	border:1px solid black;
+	margin:0 auto;
+	margin-top:90px;
+	
+}
+
+div{
+	width:100px;
+	height:100px;
+	background:linear-gradient(20deg, #6C00D9 0%, #99FFE5 50%,   #FF99E5 100%); 
+
+	
+
+	margin:0 auto;
+	margin-top:100px;
+
+	
+	transform:rotate(90deg) scale(2) skewX(60deg);}

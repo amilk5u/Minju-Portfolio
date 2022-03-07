@@ -1,0 +1,115 @@
+﻿/* 내방식대로 만든것  */
+.box01{
+	background-color:gray;
+	width:200px;
+	text-align:center;
+	line-height:200px;
+	height:200px;
+	margin:0 auto;
+	color:white;
+	font-size:5em;
+	-webkit-border-radius:1px;
+	border-radius:200px; 
+}
+
+
+.box02{
+	background-color:red;
+	width:300px;
+	text-align:center;
+	line-height:200px;
+	height:200px;
+	margin:0 auto;
+	color:white;
+	font-size:5em;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+}
+
+div>.민주{
+	background-color:gray;
+	width:300px;
+	height:300px;
+	margin:0 auto;
+	border:20px soild red;
+	
+	-webkit-border-radius:100px;
+	border-radius:200px; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 선생님께서 말씀해준대로 만든것 */
+
+.wraper{
+	width:100px;
+	height:100px;
+
+	margin:0 auto;
+	margin-top:80px;
+	background-color:red;
+}
+
+.cycle{
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	width:100px;
+	height:100px;
+	border:5px solid black;
+	-webkit-border-radius:100px;
+	border-radius:100px;
+	transition:all .3s;
+}
+
+.play{
+	width:0px;
+	border-width:25px 40px;
+	border-style:solid;
+	border-color:transparent transparent transparent black;  /*투명도*/
+	margin-top:22px;
+	margin-left:29px;
+	transition:all .3s;
+}
+
+.cycle:hover{
+	
+
+	opacity: .6;
+}
+.cycle:hover>.play{	
+	opacity: .8;
+	/* border-color:transparent transparent transparent white; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

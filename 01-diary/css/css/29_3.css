@@ -1,0 +1,13 @@
+﻿.imgbox{	
+	margin:0 auto;
+	width:1000px;
+	height:600px;
+	background-color:white;
+	border: .3px solid black;
+	background-image:url(../img/7.jpg), url(../img/7.jpg);
+	background-position:center; 
+	background-repeat:no-repeat;
+	background-size:60%, 100%;
+}
+
+인풋은 라벨과 연결을 할수 있다.

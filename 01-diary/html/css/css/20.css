@@ -1,0 +1,8 @@
+﻿a:link::after{
+	content:'-----' attr(href);		/* attr(속성)을 입력하면 속성값이 나온다(링크)*/
+} 
+
+
+h1:nth-of-type(3)::after{background-color:red; content:'민주' attr(href);}
+
+h5::before{content:'민주' }

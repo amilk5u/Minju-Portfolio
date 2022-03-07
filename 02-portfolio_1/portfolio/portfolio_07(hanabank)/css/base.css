@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+
+ @font-face {
+  font-family: 'malgun';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/malgun.eot);
+  src: url(../fonts/malgun.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/malgun.woff2) format('woff2'),
+       url(../fonts/malgun.woff) format('woff'),
+       url(../fonts/malgun.ttf) format('truetype');
+} 
+ @font-face {
+  font-family: 'DaumR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/DaumR.eot);
+  src: url(../fonts/DaumR.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/DaumR.woff2) format('woff2'),
+       url(../fonts/DaumR.woff) format('woff'),
+       url(../fonts/DaumR.ttf) format('truetype');
+} 
+ @font-face {
+  font-family: 'dx';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/dx.eot);
+  src: url(../fonts/dx.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/dx.woff2) format('woff2'),
+       url(../fonts/dx.woff) format('woff'),
+       url(../fonts/dx.ttf) format('truetype');
+} 

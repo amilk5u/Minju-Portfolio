@@ -1,0 +1,32 @@
+﻿/* @font-face{
+	font-family:'NGothic'; src:url(NanumGothic.woff) format('woff')
+	font-family:'NGothicB'; src:url(NanumGothicBold.woff) format('woff')
+} */
+/* 
+@font-face{
+	font-family:'NGothic'
+	src:local('NanumGothic')
+	url('NAnumGothic.eot')
+	url('NAnumGothic.ttf')
+	url('NAnumGothic.woff')
+} */
+@font-face{
+	font-family:'NanumGothic';
+	src:lacl('NanumGothic');	
+	src:url('NanumGothicLight.woff') format('woff');
+	font-weight:normal;
+	font-style:normal;
+	
+}
+
+@font-face {
+	font-family:'NanumGothic';
+	src:url('NanumGothicLight.woff') format('woff');
+	font-weight:normal;
+	font-style:normal;	
+}
+
+
+
+
+

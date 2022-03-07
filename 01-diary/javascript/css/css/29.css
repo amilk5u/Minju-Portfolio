@@ -1,0 +1,10 @@
+﻿body{
+	width:500px;
+	height:300px;
+	background-image:url('../img/5.jpg');
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+/* background-size:100% 100%; */
+/* 첫번째 너비 두번째 높이 */ 
+/* contain 100% 맞춰주지만 해당하는 공간의 높이 값에 비례한다 cover는 전체화면의 100% */
